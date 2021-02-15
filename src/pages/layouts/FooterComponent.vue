@@ -5,7 +5,7 @@
         <v-row class="footer text-center" align="center">
           <v-col cols="12" class="pb-0">
             <v-list-item
-              class="d-inline-block"
+              class="d-inline-block mr-2"
               href="https://co.linkedin.com/in/g1alexander/"
               target="_blank"
               ><v-icon large color="linkedin darken-2">
@@ -13,7 +13,7 @@
               </v-icon></v-list-item
             >
             <v-list-item
-              class="d-inline-block"
+              class="d-inline-block mr-2"
               href="https://www.github.com/g1alexander/"
               target="_blank"
               ><v-icon large color="github darken-2">
@@ -21,7 +21,7 @@
               </v-icon></v-list-item
             >
             <v-list-item
-              class="d-inline-block"
+              class="d-inline-block mr-2"
               href="https://www.twitter.com/g1_alexander/"
               target="_blank"
               ><v-icon large color="twitter darken-2">
@@ -47,15 +47,10 @@
   </div>
 </template>
 
-<script>
-export default {};
-</script>
-
 <style>
 .footer {
   height: 150px;
 }
-
 .v-list-item {
   min-height: 0 !important;
   padding: 0 3px;

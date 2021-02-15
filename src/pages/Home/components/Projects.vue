@@ -124,14 +124,3 @@
     </v-container>
   </section>
 </template>
-
-<script>
-export default {};
-</script>
-
-<style>
-.border-project {
-  border: 1px solid #c4c4c4;
-  width: 100%;
-}
-</style>

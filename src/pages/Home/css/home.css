@@ -1,0 +1,13 @@
+/* page home */
+#home {
+  height: 100vh;
+}
+/* component proyects */
+.border-project {
+  border: 1px solid #c4c4c4;
+  width: 100%;
+}
+/* component content */
+.v-list-item {
+  min-height: 0 !important;
+}

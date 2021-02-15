@@ -61,30 +61,4 @@ export default {
 };
 </script>
 
-<style>
-.v-app-bar.v-app-bar--fixed {
-  position: unset;
-}
-
-.v-sheet.v-card:not(.v-sheet--outlined),
-.v-sheet.v-app-bar.v-toolbar:not(.v-sheet--outlined) {
-  box-shadow: none !important;
-}
-.v-toolbar__content .v-btn.v-btn--icon.v-size--default {
-  display: none;
-}
-.v-slide-group__content {
-  justify-content: flex-end;
-}
-@media (max-width: 767px) {
-  .v-toolbar__content .v-btn.v-btn--icon.v-size--default {
-    display: inline-block;
-  }
-  .v-tabs {
-    display: none;
-  }
-  .header_movil {
-    height: 100vh;
-  }
-}
-</style>
+<style src="@/assets/css/header.css"></style>

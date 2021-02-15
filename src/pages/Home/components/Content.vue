@@ -12,7 +12,7 @@
           ></v-img>
         </v-col>
         <v-col cols="12" lg="5" class="offset-1">
-          <h1 class="ancho">
+          <h1>
             Hola, Soy Alexander G Desarrollador web Frontend
           </h1>
           <p class="secundary mt-5">
@@ -31,18 +31,3 @@
     </v-container>
   </div>
 </template>
-
-<script>
-export default {
-  name: "Content",
-};
-</script>
-
-<style>
-.ancho {
-  width: 90%;
-}
-.v-list-item {
-  min-height: 0 !important;
-}
-</style>
