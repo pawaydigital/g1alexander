@@ -1,9 +1,9 @@
 <template>
-  <div id="projects">
+  <div id="project">
     <v-container>
       <h2 class="text-center my-6">Proyectos</h2>
       <v-row>
-        <v-col cols="12" sm="12" md="6" lg="4" class="project">
+        <v-col cols="12" xs="12" sm="6" lg="4" class="project">
           <img
             src="@/assets/images/blog/blog-01.jpg"
             alt="proyect-01"
@@ -16,7 +16,7 @@
             </p></router-link
           >
         </v-col>
-        <v-col cols="12" sm="12" md="6" lg="4" class="project">
+        <v-col cols="12" xs="12" sm="6" lg="4" class="project">
           <img
             src="@/assets/images/blog/blog-01.jpg"
             alt="proyect-01"
@@ -29,7 +29,7 @@
             </p></router-link
           >
         </v-col>
-        <v-col cols="12" sm="12" md="6" lg="4" class="project">
+        <v-col cols="12" xs="12" sm="6" lg="4" class="project">
           <img
             src="@/assets/images/blog/blog-01.jpg"
             alt="proyect-01"
@@ -42,7 +42,7 @@
             </p></router-link
           >
         </v-col>
-        <v-col cols="12" sm="12" md="6" lg="4" class="project">
+        <v-col cols="12" xs="12" sm="6" lg="4" class="project">
           <img
             src="@/assets/images/blog/blog-01.jpg"
             alt="proyect-01"
@@ -55,7 +55,7 @@
             </p></router-link
           >
         </v-col>
-        <v-col cols="12" sm="12" md="6" lg="4" class="project">
+        <v-col cols="12" xs="12" sm="6" lg="4" class="project">
           <img
             src="@/assets/images/blog/blog-01.jpg"
             alt="proyect-01"
@@ -68,7 +68,7 @@
             </p></router-link
           >
         </v-col>
-        <v-col cols="12" sm="12" md="6" lg="4" class="project">
+        <v-col cols="12" xs="12" sm="6" lg="4" class="project">
           <img
             src="@/assets/images/blog/blog-01.jpg"
             alt="proyect-01"

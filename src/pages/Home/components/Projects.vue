@@ -21,19 +21,22 @@
                   height="250"
                   width="285"
                   src="@/assets/images/blog/blog-01.jpg"
+                  class="image-projects"
                 ></v-img>
               </figure>
             </v-col>
             <v-col cols="12" lg="9">
-              <router-link to="/project-one" class="text-decoration-none"
-                ><h2 class="primary--text">
+              <router-link
+                to="/project-one"
+                class="text-content text-decoration-none"
+                ><h2 class="primary--text mb-3">
                   Vestibulum ante ipsum primis in faucibus orci
                 </h2></router-link
               >
-              <p class="github bg--text rounded px-2 mt-5" style="width: 97px;">
+              <span class="span-projects github bg--text rounded px-2">
                 10-23-2020
-              </p>
-              <p class="secundary--text" style="width: 96%;">
+              </span>
+              <p class="secundary--text mt-2" style="width: 96%;">
                 adipiscing elit. Arcu arcu non faucibus auctor odio amet
                 hendrerit a como. Lacus platea est sit nullam sit cras. auctor
                 odio amet hendrerit a commw. adipiscing elit. Arcu arcu non
@@ -47,7 +50,7 @@
                 non faucibus auctor odio amet hendrerit a como.
               </p>
             </v-col>
-            <p class="border-project mt-3 mx-3"></p>
+            <span class="border-project mt-3 mx-3"></span>
           </v-row>
         </v-col>
         <v-col cols="12">
@@ -59,17 +62,22 @@
                   height="250"
                   width="285"
                   src="@/assets/images/blog/blog-01.jpg"
+                  class="image-projects"
                 ></v-img>
               </figure>
             </v-col>
             <v-col cols="12" lg="9">
-              <h2 class="primary--text">
-                Vestibulum ante ipsum primis in faucibus orci
-              </h2>
-              <p class="github bg--text rounded px-2 mt-5" style="width: 97px;">
+              <router-link
+                to="/project-one"
+                class="text-content text-decoration-none"
+                ><h2 class="primary--text mb-3">
+                  Vestibulum ante ipsum primis in faucibus orci
+                </h2></router-link
+              >
+              <span class="span-projects github bg--text rounded px-2">
                 10-23-2020
-              </p>
-              <p class="secundary--text" style="width: 96%;">
+              </span>
+              <p class="secundary--text mt-2" style="width: 96%;">
                 adipiscing elit. Arcu arcu non faucibus auctor odio amet
                 hendrerit a como. Lacus platea est sit nullam sit cras. auctor
                 odio amet hendrerit a commw. adipiscing elit. Arcu arcu non
@@ -83,7 +91,7 @@
                 non faucibus auctor odio amet hendrerit a como.
               </p>
             </v-col>
-            <p class="border-project mt-3 mx-3"></p>
+            <span class="border-project mt-3 mx-3"></span>
           </v-row>
         </v-col>
         <v-col cols="12">
@@ -95,17 +103,22 @@
                   height="250"
                   width="285"
                   src="@/assets/images/blog/blog-01.jpg"
+                  class="image-projects"
                 ></v-img>
               </figure>
             </v-col>
             <v-col cols="12" lg="9">
-              <h2 class="primary--text">
-                Vestibulum ante ipsum primis in faucibus orci
-              </h2>
-              <p class="github bg--text rounded px-2 mt-5" style="width: 97px;">
+              <router-link
+                to="/project-one"
+                class="text-content text-decoration-none"
+                ><h2 class="primary--text mb-3">
+                  Vestibulum ante ipsum primis in faucibus orci
+                </h2></router-link
+              >
+              <span class="span-projects github bg--text rounded px-2">
                 10-23-2020
-              </p>
-              <p class="secundary--text" style="width: 96%;">
+              </span>
+              <p class="secundary--text mt-2" style="width: 96%;">
                 adipiscing elit. Arcu arcu non faucibus auctor odio amet
                 hendrerit a como. Lacus platea est sit nullam sit cras. auctor
                 odio amet hendrerit a commw. adipiscing elit. Arcu arcu non
@@ -119,7 +132,7 @@
                 non faucibus auctor odio amet hendrerit a como.
               </p>
             </v-col>
-            <p class="border-project mt-3 mx-3"></p>
+            <span class="border-project mt-3 mx-3"></span>
           </v-row>
         </v-col>
       </v-row>

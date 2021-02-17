@@ -1,5 +1,6 @@
 <template>
   <v-app id="home" class="bg">
+    <!-- <Preloader /> -->
     <v-container class="py-0">
       <HeaderComponent />
       <Content />
@@ -13,6 +14,7 @@
 
 <script>
 import Contact from "@/pages/layouts/Contact.vue";
+import Preloader from "@/pages/layouts/Preloader.vue";
 import HeaderComponent from "@/pages/layouts/HeaderComponent.vue";
 import Content from "@/pages/Home/components/Content.vue";
 import Reviews from "@/pages/Home/components/Reviews.vue";
@@ -22,6 +24,7 @@ import FooterComponent from "@/pages/layouts/FooterComponent.vue";
 export default {
   name: "Home",
   components: {
+    Preloader,
     Contact,
     HeaderComponent,
     Content,

@@ -47,6 +47,12 @@
   .content-row {
     height: 75vh !important;
   }
+  #projects p {
+    display: none;
+  }
+  .image-projects {
+    width: auto !important;
+  }
 }
 @media screen and (width: 768px) {
   #content {
@@ -54,5 +60,17 @@
   }
   .content-row {
     height: 65vh !important;
+  }
+  #projects p,
+  h2 {
+    text-align: center;
+    width: 100% !important;
+  }
+  #projects .span-projects {
+    position: relative;
+    left: 42%;
+  }
+  .image-projects {
+    width: auto !important;
   }
 }
