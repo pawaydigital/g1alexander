@@ -2,7 +2,7 @@
   <v-app id="project" class="bg">
     <v-container class="py-0">
       <HeaderComponent />
-      <Projects />
+      <Title />
     </v-container>
     <FooterComponent />
     <Contact />
@@ -12,7 +12,7 @@
 <script>
 import Contact from "@/pages/layouts/Contact.vue";
 import HeaderComponent from "@/pages/layouts/HeaderComponent.vue";
-import Projects from "@/pages/Project/components/Grid/Projects.vue";
+import Title from "@/pages/Project/components/Detail/Title.vue";
 import FooterComponent from "@/pages/layouts/FooterComponent.vue";
 
 export default {
@@ -20,10 +20,10 @@ export default {
   components: {
     Contact,
     HeaderComponent,
-    Projects,
+    Title,
     FooterComponent,
   },
 };
 </script>
 
-<style src="@/pages/Project/css/project.css"></style>
+<style src="@/pages/Project/css/detail.css"></style>

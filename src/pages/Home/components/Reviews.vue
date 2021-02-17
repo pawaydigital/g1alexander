@@ -14,7 +14,7 @@
               align="center"
               justify="center"
             >
-              <div>
+              <div class="text-content">
                 <h2 class="primary--text">"{{ elemt.phrase }}"</h2>
                 <span class="secondary--text mt-5">------</span>
                 <h4 class="primary--text font-weight-thin font-italic">

@@ -1,17 +1,25 @@
 <template>
   <div id="content">
     <v-container>
-      <v-row align="center" style="height: 85vh;">
-        <v-col cols="12" lg="4" class="order-lg-2 offset-1">
-          <v-img
-            lazy-src="@/assets/images/blog/comment-01.jpg"
+      <v-row align="center" class="content-row" style="height: 85vh;">
+        <v-col
+          cols="12"
+          lg="4"
+          class="order-lg-2 offset-lg-1 text-sm-center p-content p-sm-0"
+        >
+          <img
+            src="@/assets/images/profile.jpg"
+            class="rounded-circle image-content"
+            alt="profile-alex"
             height="285"
             width="285"
-            src="@/assets/images/blog/comment-01.jpg"
-            class="rounded-circle"
-          ></v-img>
+          />
         </v-col>
-        <v-col cols="12" lg="5" class="offset-1">
+        <v-col
+          cols="12"
+          lg="5"
+          class="offset-lg-1 text-sm-center text-md-start text-content pt-sm-0 pb-sm-0"
+        >
           <h1>
             Hola, Soy Alexander G Desarrollador web Frontend
           </h1>

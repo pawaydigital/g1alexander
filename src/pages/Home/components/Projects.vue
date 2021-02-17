@@ -8,7 +8,7 @@
           style="height: 80px;"
         >
           <h1 class="d-inline-block">Ultimos proyectos</h1>
-          <router-link to="/login" class="info--text text-decoration-none"
+          <router-link to="/proyectos" class="info--text text-decoration-none"
             >Ver más</router-link
           >
         </v-col>
@@ -25,9 +25,11 @@
               </figure>
             </v-col>
             <v-col cols="12" lg="9">
-              <h2 class="primary--text">
-                Vestibulum ante ipsum primis in faucibus orci
-              </h2>
+              <router-link to="/project-one" class="text-decoration-none"
+                ><h2 class="primary--text">
+                  Vestibulum ante ipsum primis in faucibus orci
+                </h2></router-link
+              >
               <p class="github bg--text rounded px-2 mt-5" style="width: 97px;">
                 10-23-2020
               </p>

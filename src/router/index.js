@@ -14,6 +14,11 @@ const routes = [
     name: "Project",
     component: () => import("@/pages/Project/pages/Project.vue"),
   },
+  {
+    path: "/project-one",
+    name: "Detail",
+    component: () => import("@/pages/Project/pages/Detail.vue"),
+  },
 ];
 
 const router = new VueRouter({

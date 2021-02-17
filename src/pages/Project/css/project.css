@@ -1,0 +1,31 @@
+/* grid */
+.project {
+  position: relative;
+}
+.project-overlay {
+  background: rgba(0, 0, 0, 0.4);
+  color: #f5f5f5;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+  margin-left: 12px;
+  margin-top: 12px;
+  margin-bottom: 19px !important;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.project:hover .project-overlay {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .project img {
+    width: 100%;
+  }
+  .project-overlay {
+    margin-right: 12px;
+  }
+}

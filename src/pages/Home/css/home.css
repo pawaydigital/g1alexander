@@ -11,3 +11,48 @@
 .v-list-item {
   min-height: 0 !important;
 }
+
+/* responsive */
+@media screen and (max-width: 411px) {
+  #content {
+    padding-bottom: 5em;
+  }
+  .image-content {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .text-content h1 {
+    font-size: 25px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .text-content h2 {
+    font-size: 20px;
+  }
+  .text-content h4 {
+    font-size: 14px;
+  }
+  .text-content {
+    padding: 0;
+  }
+  .text-content p {
+    margin-bottom: 2em;
+  }
+  .content-row {
+    text-align: center;
+  }
+  .p-content {
+    padding: 0;
+  }
+  .content-row {
+    height: 75vh !important;
+  }
+}
+@media screen and (width: 768px) {
+  #content {
+    padding-bottom: 2em;
+  }
+  .content-row {
+    height: 65vh !important;
+  }
+}
