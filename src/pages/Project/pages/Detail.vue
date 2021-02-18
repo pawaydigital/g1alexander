@@ -3,6 +3,8 @@
     <v-container class="py-0">
       <HeaderComponent />
       <Title />
+      <Carousel />
+      <Description />
     </v-container>
     <FooterComponent />
     <Contact />
@@ -13,6 +15,8 @@
 import Contact from "@/pages/layouts/Contact.vue";
 import HeaderComponent from "@/pages/layouts/HeaderComponent.vue";
 import Title from "@/pages/Project/components/Detail/Title.vue";
+import Carousel from "@/pages/Project/components/Detail/Carousel.vue";
+import Description from "@/pages/Project/components/Detail/Description.vue";
 import FooterComponent from "@/pages/layouts/FooterComponent.vue";
 
 export default {
@@ -21,6 +25,8 @@ export default {
     Contact,
     HeaderComponent,
     Title,
+    Carousel,
+    Description,
     FooterComponent,
   },
 };
