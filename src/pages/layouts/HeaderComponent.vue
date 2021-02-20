@@ -1,7 +1,7 @@
 <template>
   <div id="header-component">
-    <v-card>
-      <v-app-bar app>
+    <v-container>
+      <v-app-bar color="bg primary--text">
         <router-link to="/">
           <v-img
             lazy-src="@/assets/images/logo.svg"
@@ -11,10 +11,8 @@
             class="logo"
           ></v-img>
         </router-link>
-
         <v-spacer></v-spacer>
-
-        <v-tabs color="secundary">
+        <v-tabs class="d-flex justify-end">
           <v-tab to="/">
             Inicio
           </v-tab>
@@ -25,9 +23,10 @@
             Proyectos
           </v-tab>
         </v-tabs>
-        <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
+        <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
       </v-app-bar>
-      <v-navigation-drawer app v-model="drawer" temporary>
+
+      <v-navigation-drawer v-model="drawer" absolute temporary>
         <v-container>
           <v-row class="header_movil" align-content="center" justify="center">
             <v-col cols="12">
@@ -57,7 +56,7 @@
           </v-row>
         </v-container>
       </v-navigation-drawer>
-    </v-card>
+    </v-container>
   </div>
 </template>
 

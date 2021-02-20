@@ -1,6 +1,6 @@
 <template>
   <div id="contact">
-    <v-main class="linkedin rounded btn-telegram px-1 py-1">
+    <v-main class="telegram rounded btn-telegram px-1 py-1">
       <v-list-item
         class="d-inline-block"
         href="https://t.me/g1alexander/"

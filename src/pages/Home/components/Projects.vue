@@ -33,7 +33,7 @@
                   Vestibulum ante ipsum primis in faucibus orci
                 </h2></router-link
               >
-              <span class="span-projects github bg--text rounded px-2">
+              <span class="span-projects btntext--text btn rounded px-2">
                 10-23-2020
               </span>
               <p class="secundary--text mt-2" style="width: 96%;">
@@ -74,7 +74,7 @@
                   Vestibulum ante ipsum primis in faucibus orci
                 </h2></router-link
               >
-              <span class="span-projects github bg--text rounded px-2">
+              <span class="span-projects btntext--text btn rounded px-2">
                 10-23-2020
               </span>
               <p class="secundary--text mt-2" style="width: 96%;">
@@ -115,7 +115,7 @@
                   Vestibulum ante ipsum primis in faucibus orci
                 </h2></router-link
               >
-              <span class="span-projects github bg--text rounded px-2">
+              <span class="span-projects btntext--text btn rounded px-2">
                 10-23-2020
               </span>
               <p class="secundary--text mt-2" style="width: 96%;">

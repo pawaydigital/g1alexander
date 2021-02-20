@@ -32,7 +32,7 @@
             class="d-inline-block px-0"
             href="https://google.com/"
             target="_blank"
-            ><v-btn class="primary">Descargar CV</v-btn></v-list-item
+            ><v-btn class="btntext--text btn">Descargar CV</v-btn></v-list-item
           >
         </v-col>
       </v-row>
