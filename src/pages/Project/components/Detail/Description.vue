@@ -30,35 +30,35 @@
             class="text-decoration-none mr-3"
             target="_blank"
           >
-            <v-btn class="bg--text vue mt-3">Vue js</v-btn>
+            <v-btn class="detail_tec--text vue mt-3">Vue js</v-btn>
           </a>
           <a
             href="https://bootstrap-vue.org/"
             class="text-decoration-none mr-3"
             target="_blank"
           >
-            <v-btn class="bg--text bootstrap mt-3">Bootstrap</v-btn>
+            <v-btn class="detail_tec--text bootstrap mt-3">Bootstrap</v-btn>
           </a>
           <a
             href="https://strapi.io/"
             class="text-decoration-none mr-3"
             target="_blank"
           >
-            <v-btn class="bg--text strapi mt-3">Strapi</v-btn>
+            <v-btn class="detail_tec--text strapi mt-3">Strapi</v-btn>
           </a>
           <a
             href="https://www.mongodb.com/cloud/atlas"
             class="text-decoration-none mr-3"
             target="_blank"
           >
-            <v-btn class="bg--text mongo mt-3">Mongo db</v-btn>
+            <v-btn class="detail_tec--text mongo mt-3">Mongo db</v-btn>
           </a>
           <a
             href="https://www.heroku.com/"
             class="text-decoration-none mr-3"
             target="_blank"
           >
-            <v-btn class="bg--text heroku mt-3">Heroku</v-btn>
+            <v-btn class="detail_tec--text heroku mt-3">Heroku</v-btn>
           </a>
         </p>
       </v-col>

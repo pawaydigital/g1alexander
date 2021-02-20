@@ -3,13 +3,9 @@
     <v-container>
       <v-app-bar color="bg primary--text">
         <router-link to="/">
-          <v-img
-            lazy-src="@/assets/images/logo.svg"
-            max-height="30"
-            max-width="30"
-            src="@/assets/images/logo.svg"
-            class="logo"
-          ></v-img>
+          <v-icon color="logo darken-2">
+            mdi-laptop
+          </v-icon>
         </router-link>
         <v-spacer></v-spacer>
         <v-tabs class="d-flex justify-end">
@@ -26,7 +22,7 @@
         <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
       </v-app-bar>
 
-      <v-navigation-drawer v-model="drawer" absolute temporary>
+      <v-navigation-drawer v-model="drawer" color="bg" absolute temporary>
         <v-container>
           <v-row class="header_movil" align-content="center" justify="center">
             <v-col cols="12">

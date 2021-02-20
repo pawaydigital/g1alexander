@@ -21,7 +21,7 @@
             temporalmente
           </p>
           <router-link to="/" class="text-decoration-none">
-            <v-btn large class="primary">Volver</v-btn>
+            <v-btn large class="btn btntext--text">Volver</v-btn>
           </router-link>
         </v-col>
       </v-row>
