@@ -10,6 +10,11 @@ const routes = [
     component: () => import("@/pages/Home/pages/Home.vue"),
   },
   {
+    path: "*",
+    name: "Error",
+    component: () => import("@/pages/layouts/error/Error.vue"),
+  },
+  {
     path: "/proyectos",
     name: "Project",
     component: () => import("@/pages/Project/pages/Project.vue"),

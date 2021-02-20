@@ -8,7 +8,7 @@
           class="order-lg-2 offset-lg-1 text-sm-center p-content p-sm-0"
         >
           <img
-            src="@/assets/images/profile.jpg"
+            src="@/assets/images/me/profile.jpg"
             class="rounded-circle image-content"
             alt="profile-alex"
             height="285"
