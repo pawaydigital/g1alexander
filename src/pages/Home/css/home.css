@@ -47,7 +47,7 @@
   .content-row {
     height: 75vh !important;
   }
-  #projects p {
+  #projects-home p {
     display: none;
   }
   .image-projects {
@@ -61,12 +61,12 @@
   .content-row {
     height: 65vh !important;
   }
-  #projects p,
+  #projects-home p,
   h2 {
     text-align: center;
     width: 100% !important;
   }
-  #projects .span-projects {
+  #projects-home .span-projects {
     position: relative;
     left: 42%;
   }

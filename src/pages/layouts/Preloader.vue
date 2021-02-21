@@ -1,11 +1,35 @@
 <template>
-  <div id="preloader">
-    <div class="loader">
-      <img src="@/assets/images/preloader.gif" alt="" />
+  <transition id="preloader">
+    <div
+      class="d-flex justify-center align-center"
+      v-if="show"
+      style="height: 100vh;"
+    >
+      <v-progress-circular
+        :size="70"
+        :width="7"
+        color="blue"
+        indeterminate
+      ></v-progress-circular>
     </div>
-  </div>
+  </transition>
 </template>
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      show: true,
+    };
+  },
+  mounted() {
+    if (Boolean(this.show)) this.showToggle();
+  },
+  methods: {
+    showToggle() {
+      setTimeout(() => {
+        this.show = false;
+      }, 700);
+    },
+  },
+};
 </script>
-<style src="@/assets/css/preloader.css"></style>

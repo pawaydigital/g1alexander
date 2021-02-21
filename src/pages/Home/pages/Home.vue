@@ -1,25 +1,14 @@
 <template>
   <v-app id="home" class="bg">
     <v-container class="py-0">
-      <div
-        class="d-flex justify-center align-center"
-        id="circle"
-        style="height: 100vh;"
-      >
-        <v-progress-circular
-          :size="70"
-          :width="7"
-          color="blue"
-          indeterminate
-        ></v-progress-circular>
-      </div>
-      <HeaderComponent class="d-none" />
-      <Content class="d-none" />
+      <Preloader />
+      <HeaderComponent />
+      <Content />
     </v-container>
-    <Reviews class="d-none" />
-    <Projects class="d-none" />
-    <FooterComponent class="d-none" />
-    <Contact class="d-none" />
+    <Reviews />
+    <Projects />
+    <FooterComponent />
+    <Contact />
   </v-app>
 </template>
 
@@ -42,24 +31,6 @@ export default {
     Reviews,
     Projects,
     FooterComponent,
-  },
-  mounted() {
-    this.carga();
-  },
-  methods: {
-    carga: function() {
-      window.addEventListener("load", () => {
-        setTimeout(() => {
-          document.getElementById("circle").className = "d-none";
-          document.getElementById("header-component").className = "d-block";
-          document.getElementById("content").className = "d-block";
-          document.getElementById("reviews").className = "d-block accent";
-          document.getElementById("projects").className = "d-block bg";
-          document.getElementById("footer").className = "d-block bg";
-          document.getElementById("contact").className = "d-block ";
-        }, 2000);
-      });
-    },
   },
 };
 </script>

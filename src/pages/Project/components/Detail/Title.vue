@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center mt-4">
+  <div id="title" class="text-center mt-4">
     <h2>Maybe you haven’t</h2>
     <div class="mt-3">
       <span class="detail--text mr-3 subtitle-2 font-weight-black">

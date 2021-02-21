@@ -1,5 +1,5 @@
 <template>
-  <div id="project">
+  <div id="projects">
     <v-container>
       <h2 class="text-center mb-6">Proyectos</h2>
       <v-row>

@@ -1,5 +1,6 @@
 <template>
   <v-app id="error" class="bg">
+    <Preloader />
     <v-container class="py-1">
       <v-row class="align-center" style="height: 100vh">
         <v-col cols="12" sm="12" md="12" class="error__title">
@@ -30,7 +31,14 @@
 </template>
 
 <script>
-export default {};
+import Preloader from "@/pages/layouts/Preloader.vue";
+
+export default {
+  name: "Error",
+  components: {
+    Preloader,
+  },
+};
 </script>
 
 <style src="@/pages/layouts/error/css/error.css"></style>
