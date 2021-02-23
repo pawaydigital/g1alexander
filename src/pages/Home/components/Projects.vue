@@ -12,124 +12,32 @@
             >Ver más</router-link
           >
         </v-col>
-        <v-col cols="12">
+        <v-col cols="12" v-for="(slide, i) in lastArray" :key="i">
           <v-row>
             <v-col cols="12" lg="3">
               <figure class="my-0">
                 <v-img
-                  lazy-src="@/assets/images/blog/blog-01.jpg"
+                  :lazy-src="slide.img"
                   height="250"
                   width="285"
-                  src="@/assets/images/blog/blog-01.jpg"
+                  :src="slide.img"
                   class="image-projects"
                 ></v-img>
               </figure>
             </v-col>
             <v-col cols="12" lg="9">
               <router-link
-                to="/project-one"
+                :to="slide.url"
                 class="text-content text-decoration-none"
                 ><h2 class="primary--text mb-3">
-                  Vestibulum ante ipsum primis in faucibus orci
+                  {{ slide.title }}
                 </h2></router-link
               >
               <span class="span-projects btntext--text btn rounded px-2">
-                10-23-2020
+                {{ slide.date }}
               </span>
               <p class="secundary--text mt-2" style="width: 96%;">
-                adipiscing elit. Arcu arcu non faucibus auctor odio amet
-                hendrerit a como. Lacus platea est sit nullam sit cras. auctor
-                odio amet hendrerit a commw. adipiscing elit. Arcu arcu non
-                faucibus auctor odio amet hendrerit a como. Lacus platea est sit
-                nullam sit cras. auctor odio amet hendrerit a commw. adipiscing
-                elit. Arcu arcu non faucibus auctor odio amet hendrerit a como.
-                Lacus platea est sit nullam sit cras. auctor odio amet hendrerit
-                a commw. adipiscing elit. Arcu arcu non faucibus auctor odio
-                amet hendrerit a como. Lacus platea est sit nullam sit cras.
-                auctor odio amet hendrerit a commw. adipiscing elit. Arcu arcu
-                non faucibus auctor odio amet hendrerit a como.
-              </p>
-            </v-col>
-            <span class="border-project mt-3 mx-3"></span>
-          </v-row>
-        </v-col>
-        <v-col cols="12">
-          <v-row>
-            <v-col cols="12" lg="3">
-              <figure class="my-0">
-                <v-img
-                  lazy-src="@/assets/images/blog/blog-01.jpg"
-                  height="250"
-                  width="285"
-                  src="@/assets/images/blog/blog-01.jpg"
-                  class="image-projects"
-                ></v-img>
-              </figure>
-            </v-col>
-            <v-col cols="12" lg="9">
-              <router-link
-                to="/project-one"
-                class="text-content text-decoration-none"
-                ><h2 class="primary--text mb-3">
-                  Vestibulum ante ipsum primis in faucibus orci
-                </h2></router-link
-              >
-              <span class="span-projects btntext--text btn rounded px-2">
-                10-23-2020
-              </span>
-              <p class="secundary--text mt-2" style="width: 96%;">
-                adipiscing elit. Arcu arcu non faucibus auctor odio amet
-                hendrerit a como. Lacus platea est sit nullam sit cras. auctor
-                odio amet hendrerit a commw. adipiscing elit. Arcu arcu non
-                faucibus auctor odio amet hendrerit a como. Lacus platea est sit
-                nullam sit cras. auctor odio amet hendrerit a commw. adipiscing
-                elit. Arcu arcu non faucibus auctor odio amet hendrerit a como.
-                Lacus platea est sit nullam sit cras. auctor odio amet hendrerit
-                a commw. adipiscing elit. Arcu arcu non faucibus auctor odio
-                amet hendrerit a como. Lacus platea est sit nullam sit cras.
-                auctor odio amet hendrerit a commw. adipiscing elit. Arcu arcu
-                non faucibus auctor odio amet hendrerit a como.
-              </p>
-            </v-col>
-            <span class="border-project mt-3 mx-3"></span>
-          </v-row>
-        </v-col>
-        <v-col cols="12">
-          <v-row>
-            <v-col cols="12" lg="3">
-              <figure class="my-0">
-                <v-img
-                  lazy-src="@/assets/images/blog/blog-01.jpg"
-                  height="250"
-                  width="285"
-                  src="@/assets/images/blog/blog-01.jpg"
-                  class="image-projects"
-                ></v-img>
-              </figure>
-            </v-col>
-            <v-col cols="12" lg="9">
-              <router-link
-                to="/project-one"
-                class="text-content text-decoration-none"
-                ><h2 class="primary--text mb-3">
-                  Vestibulum ante ipsum primis in faucibus orci
-                </h2></router-link
-              >
-              <span class="span-projects btntext--text btn rounded px-2">
-                10-23-2020
-              </span>
-              <p class="secundary--text mt-2" style="width: 96%;">
-                adipiscing elit. Arcu arcu non faucibus auctor odio amet
-                hendrerit a como. Lacus platea est sit nullam sit cras. auctor
-                odio amet hendrerit a commw. adipiscing elit. Arcu arcu non
-                faucibus auctor odio amet hendrerit a como. Lacus platea est sit
-                nullam sit cras. auctor odio amet hendrerit a commw. adipiscing
-                elit. Arcu arcu non faucibus auctor odio amet hendrerit a como.
-                Lacus platea est sit nullam sit cras. auctor odio amet hendrerit
-                a commw. adipiscing elit. Arcu arcu non faucibus auctor odio
-                amet hendrerit a como. Lacus platea est sit nullam sit cras.
-                auctor odio amet hendrerit a commw. adipiscing elit. Arcu arcu
-                non faucibus auctor odio amet hendrerit a como.
+                {{ slide.description }}
               </p>
             </v-col>
             <span class="border-project mt-3 mx-3"></span>
@@ -139,3 +47,16 @@
     </v-container>
   </section>
 </template>
+<script>
+import last from "@/assets/portfolio/last.js";
+export default {
+  data() {
+    return {
+      lastArray: [],
+    };
+  },
+  mounted() {
+    this.lastArray = last;
+  },
+};
+</script>

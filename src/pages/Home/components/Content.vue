@@ -21,12 +21,14 @@
           class="offset-lg-1 text-sm-center text-md-start text-content pt-sm-0 pb-sm-0"
         >
           <h1>
-            Hola, Soy Alexander G Desarrollador web Frontend
+            Hola, Soy Alexander G Desarrollador web
           </h1>
           <p class="secundary mt-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque arcu
-            a amet augue morbi vitae. Dui urna, aliquet nibh congue volutpat Dui
-            urna, aliquet nibh congue volutpat
+            Durante mi aprendizaje en el desarrollo de software he tenido la
+            posibilidad de trabajar en proyectos web tanto en la parte frontend
+            como backend, encontrando en ellos un mundo maravilloso en el cual
+            se pueden crear soluciones y dar vida a sitios y páginas web a
+            partir de un prototipo.
           </p>
           <v-list-item
             class="d-inline-block px-0"
