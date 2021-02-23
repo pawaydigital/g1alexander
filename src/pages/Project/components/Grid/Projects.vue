@@ -20,10 +20,8 @@
             width="375"
           />
           <router-link :to="slide.url">
-            <p class="project-overlay">
-              Ver
-            </p></router-link
-          >
+            <p class="project-overlay">Ver - {{ slide.name }}</p>
+          </router-link>
         </v-col>
       </v-row>
     </v-container>

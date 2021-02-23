@@ -20,9 +20,10 @@ const routes = [
     component: () => import("@/pages/Project/pages/Project.vue"),
   },
   {
-    path: "/project-one",
-    name: "Detail",
-    component: () => import("@/pages/Project/pages/Detail.vue"),
+    path: "/card-memory-match",
+    name: "MemoryMatch",
+    component: () =>
+      import("@/pages/Project/pages/pages_projects/MemoryMatch.vue"),
   },
 ];
 

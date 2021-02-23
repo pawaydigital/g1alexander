@@ -39,6 +39,7 @@ export default new Vuetify({
         strapi: "#AA00FF",
         mongo: "#00BC58",
         heroku: "#6B2788",
+        capacitor: "#2082FF",
       },
       dark: {
         bg: "#141B26",
@@ -67,6 +68,7 @@ export default new Vuetify({
         strapi: "#AA00FF",
         mongo: "#00BC58",
         heroku: "#6B2788",
+        capacitor: "#2082FF",
       },
     },
   },

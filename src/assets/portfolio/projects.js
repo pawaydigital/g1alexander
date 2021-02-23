@@ -1,9 +1,10 @@
 const projects = [
   {
     id: 1,
+    name: "Card Memory Match",
     img:
-      "https://images.unsplash.com/photo-1613589524461-42663d531d5b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
-    url: "/project-one",
+      "https://res.cloudinary.com/dlgvxohur/image/upload/v1614112937/proyectos/memory-match/ydrgm2werptwma9r3vw4.png",
+    url: "/card-memory-match",
   },
 ];
 

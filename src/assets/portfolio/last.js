@@ -1,12 +1,13 @@
 const last = [
   {
     id: 1,
-    title: "hola",
+    title: "Card Memory Match",
     img:
-      "https://images.unsplash.com/photo-1613589524461-42663d531d5b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
-    url: "/project-one",
-    date: "22/09/2021",
-    description: "ifgleiufbiuwehfluiehwfuhwelfuhweuifhewhfiu",
+      "https://res.cloudinary.com/dlgvxohur/image/upload/v1614112937/proyectos/memory-match/ydrgm2werptwma9r3vw4.png",
+    url: "/card-memory-match",
+    date: "06/12/2020",
+    description:
+      "Es un clásico juego de memoria que te ayudará a entrenar tu cerebro, a memorizar mejor y ejercitar la memoria. Conecta lo lúdico con un entrenador de cerebro, la concentración y memoria visual. Es un juego casual y puzzle fácil de entender y jugar para todas las edades. Encuentra los pares iguales de cartas que están boca abajo para pasar de nivel y aumentar la dificultad del desafío.",
   },
 ];
 

@@ -3,11 +3,11 @@
     <Preloader />
     <v-container class="py-0">
       <HeaderComponent />
-      <Title :title="this.data.titulo" :date="this.data.fecha" />
+      <Title :title="this.data.title" :date="this.data.date" />
       <Carousel :images="this.data.images" />
       <Description
         :description="this.data.description"
-        :technologies="this.data.tecnologias"
+        :technologies="this.data.technologies"
         :repo="this.data.repo"
         :web="this.data.web"
       />
@@ -25,10 +25,10 @@ import Title from "@/pages/Project/components/Detail/Title.vue";
 import Carousel from "@/pages/Project/components/Detail/Carousel.vue";
 import Description from "@/pages/Project/components/Detail/Description.vue";
 import FooterComponent from "@/pages/layouts/FooterComponent.vue";
-import prueba from "@/assets/portfolio/prueba.js";
+import memory from "@/assets/portfolio/projects/card_memory_match.js";
 
 export default {
-  name: "Detail",
+  name: "MemoryMatch",
   components: {
     Contact,
     Preloader,
@@ -44,7 +44,7 @@ export default {
     };
   },
   mounted() {
-    this.data = prueba;
+    this.data = memory;
   },
 };
 </script>
