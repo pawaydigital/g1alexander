@@ -35,6 +35,7 @@ export default new Vuetify({
         detail: "#c4c4c4",
 
         vue: "#41b883",
+        vuetify: "#73B9FC",
         bootstrap: "#61177C",
         strapi: "#AA00FF",
         mongo: "#00BC58",
@@ -64,6 +65,7 @@ export default new Vuetify({
         detail: "#c4c4c4",
 
         vue: "#41b883",
+        vuetify: "#73B9FC",
         bootstrap: "#61177C",
         strapi: "#AA00FF",
         mongo: "#00BC58",

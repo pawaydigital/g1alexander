@@ -25,6 +25,12 @@ const routes = [
     component: () =>
       import("@/pages/Project/pages/pages_projects/MemoryMatch.vue"),
   },
+  {
+    path: "/portafolio-alexander",
+    name: "PortfolioAlexander",
+    component: () =>
+      import("@/pages/Project/pages/pages_projects/PortfolioAlexander.vue"),
+  },
 ];
 
 const router = new VueRouter({
