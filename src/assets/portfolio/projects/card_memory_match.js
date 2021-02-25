@@ -25,7 +25,8 @@ const memory = {
     },
   ],
   repo: "https://github.com/PawayDigital/card-memory-match",
-  web: "",
+  web:
+    "https://g1alexander.github.io/frameworks-css/src/bootstrap/memory-match/index.html",
 };
 
 export default memory;
