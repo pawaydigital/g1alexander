@@ -8,20 +8,24 @@
           xs="12"
           sm="6"
           lg="4"
-          class="project"
           v-for="(slide, i) in projectsArray"
           :key="i"
         >
-          <img
-            :src="slide.img"
-            class="secondary"
-            :alt="'proyect-' + i"
-            height="200"
-            width="375"
-          />
-          <router-link :to="slide.url">
-            <p class="project-overlay">Ver - {{ slide.name }}</p>
-          </router-link>
+          <v-card class="mx-auto" max-width="344">
+            <v-img :src="slide.img" height="200px"></v-img>
+
+            <v-card-title>
+              {{ slide.name }}
+            </v-card-title>
+
+            <v-card-actions>
+              <router-link :to="slide.url" class="text-decoration-none">
+                <v-btn color="btn lighten-2" small text>
+                  Mirar proyecto
+                </v-btn>
+              </router-link>
+            </v-card-actions>
+          </v-card>
         </v-col>
       </v-row>
     </v-container>
