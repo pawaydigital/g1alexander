@@ -16,10 +16,12 @@
             >
               <div class="text-content">
                 <h2 class="primary--text">"{{ elemt.phrase }}"</h2>
-                <span class="secondary--text mt-5">------</span>
-                <h4 class="primary--text font-weight-thin font-italic">
+                <span class="primary--text font-weight-thin mt-5">------</span>
+                <span
+                  class="primary--text d-block font-weight-thin font-italic"
+                >
                   {{ elemt.author }}
-                </h4>
+                </span>
               </div>
             </v-row>
           </v-sheet>

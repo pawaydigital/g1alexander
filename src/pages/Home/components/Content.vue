@@ -8,9 +8,10 @@
           class="order-lg-2 offset-lg-1 text-sm-center p-content p-sm-0"
         >
           <img
-            src="@/assets/images/me/profile.jpg"
+            loading="lazy"
+            src="https://res.cloudinary.com/dlgvxohur/image/upload/v1616792752/proyectos/portafolio-alexander/g1alexander.jpg"
             class="rounded-circle image-content"
-            alt="profile-alex"
+            alt="g1alexander"
             height="285"
             width="285"
           />
@@ -33,6 +34,7 @@
           <v-list-item
             class="d-inline-block px-0"
             href="https://google.com/"
+            rel="noopener"
             target="_blank"
             ><v-btn class="btntext--text btn">Descargar CV</v-btn></v-list-item
           >

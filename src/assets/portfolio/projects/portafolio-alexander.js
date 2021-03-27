@@ -5,12 +5,12 @@ const portafolio = {
     {
       id: 1,
       img:
-        "https://res.cloudinary.com/dlgvxohur/image/upload/v1614207829/proyectos/portafolio-alexander/mtyvalakgufwgi7l4btg.png",
+        "https://res.cloudinary.com/dlgvxohur/image/upload/v1616793808/proyectos/portafolio-alexander/foto-1.jpg",
     },
     {
       id: 2,
       img:
-        "https://res.cloudinary.com/dlgvxohur/image/upload/v1614207834/proyectos/portafolio-alexander/inybitgvbksynzkkk4ng.png",
+        "https://res.cloudinary.com/dlgvxohur/image/upload/v1616793795/proyectos/portafolio-alexander/foto-2.jpg",
     },
   ],
   description: `Este proyecto es muy importante y especial, porque, si ya te diste cuenta es el sitio donde te encuentras actualmente y aquí podrás ver todos mis proyectos de desarrollo web más importantes que he realizado a la fecha de hoy.`,

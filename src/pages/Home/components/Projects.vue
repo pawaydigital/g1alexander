@@ -20,6 +20,7 @@
                   :lazy-src="slide.img"
                   height="250"
                   width="285"
+                  :alt="slide.alt"
                   :src="slide.img"
                   class="image-projects"
                 ></v-img>

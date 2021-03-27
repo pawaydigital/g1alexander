@@ -1,6 +1,5 @@
 <template>
   <v-app id="detail" class="bg">
-    <Preloader />
     <v-container class="py-0">
       <HeaderComponent />
       <Title :title="this.data.title" :date="this.data.date" />
@@ -19,7 +18,6 @@
 
 <script>
 import Contact from "@/pages/layouts/Contact.vue";
-import Preloader from "@/pages/layouts/Preloader.vue";
 import HeaderComponent from "@/pages/layouts/HeaderComponent.vue";
 import Title from "@/pages/Project/components/Detail/Title.vue";
 import Carousel from "@/pages/Project/components/Detail/Carousel.vue";
@@ -31,7 +29,6 @@ export default {
   name: "MemoryMatch",
   components: {
     Contact,
-    Preloader,
     HeaderComponent,
     Title,
     Carousel,

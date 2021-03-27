@@ -7,6 +7,7 @@
             <v-list-item
               class="d-inline-block mr-2"
               href="https://co.linkedin.com/in/g1alexander/"
+              rel="noopener"
               target="_blank"
               ><v-icon large color="linkedin darken-2">
                 mdi-linkedin
@@ -15,6 +16,7 @@
             <v-list-item
               class="d-inline-block mr-2"
               href="https://www.github.com/g1alexander/"
+              rel="noopener"
               target="_blank"
               ><v-icon large color="github darken-2">
                 mdi-github
@@ -23,6 +25,7 @@
             <v-list-item
               class="d-inline-block mr-2"
               href="https://www.twitter.com/g1_alexander/"
+              rel="noopener"
               target="_blank"
               ><v-icon large color="twitter darken-2">
                 mdi-twitter
@@ -31,6 +34,7 @@
             <v-list-item
               class="d-inline-block"
               href="https://www.instagram.com/g1alexander/"
+              rel="noopener"
               target="_blank"
             >
               <v-icon large color="instagram darken-2">

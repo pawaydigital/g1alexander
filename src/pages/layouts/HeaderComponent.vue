@@ -17,7 +17,11 @@
           <v-tab to="/">
             Inicio
           </v-tab>
-          <v-tab href="https://co.linkedin.com/in/g1alexander/" target="_blank">
+          <v-tab
+            href="https://co.linkedin.com/in/g1alexander/"
+            rel="noopener"
+            target="_blank"
+          >
             LinkedIn
           </v-tab>
           <v-tab to="/proyectos">
@@ -41,6 +45,7 @@
               <v-list-item
                 class="d-block mx-auto"
                 href="https://co.linkedin.com/in/g1alexander/"
+                rel="noopener"
                 target="_blank"
                 ><v-btn class="primary bg--text d-block mx-auto"
                   >LinkedIn</v-btn

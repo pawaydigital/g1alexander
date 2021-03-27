@@ -4,6 +4,7 @@
       <v-list-item
         class="d-inline-block"
         href="https://t.me/g1alexander/"
+        rel="noopener"
         target="_blank"
       >
         <v-icon large color="white darken-2">
