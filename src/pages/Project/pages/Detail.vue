@@ -23,10 +23,10 @@ import Title from "@/pages/Project/components/Detail/Title.vue";
 import Carousel from "@/pages/Project/components/Detail/Carousel.vue";
 import Description from "@/pages/Project/components/Detail/Description.vue";
 import FooterComponent from "@/pages/layouts/FooterComponent.vue";
-import memory from "@/assets/portfolio/projects/card_memory_match.js";
+import all from "@/assets/portfolio/all.js";
 
 export default {
-  name: "MemoryMatch",
+  name: "detail",
   components: {
     Contact,
     HeaderComponent,
@@ -41,7 +41,12 @@ export default {
     };
   },
   mounted() {
-    this.data = memory;
+    let key = localStorage.getItem("key");
+    for (const i in all) {
+      if (i === key) {
+        this.data = all[i];
+      }
+    }
   },
 };
 </script>

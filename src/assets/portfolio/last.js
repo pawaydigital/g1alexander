@@ -1,10 +1,12 @@
+import images from "@/assets/images/projects/img.js";
+
 const last = [
   {
     id: 1,
     title: "Card Memory Match",
-    img:
-      "https://res.cloudinary.com/dlgvxohur/image/upload/v1616794590/proyectos/memory-match/foto-card-memory-match.jpg",
+    img: images.c_m_m.img,
     url: "/card-memory-match",
+    key: "memory",
     alt: "g1alexander-card-memory-match",
     date: "06/12/2020",
     description:
@@ -13,9 +15,9 @@ const last = [
   {
     id: 2,
     title: "Portafolio Alexander",
-    img:
-      "https://res.cloudinary.com/dlgvxohur/image/upload/v1616793808/proyectos/portafolio-alexander/foto-1.jpg",
+    img: images.p_a.img,
     url: "/portafolio-alexander",
+    key: "portafolio",
     alt: "g1alexander-portafolio-alexander",
     date: "20/02/2021",
     description:

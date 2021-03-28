@@ -1,11 +1,12 @@
+import images from "@/assets/images/projects/img.js";
+
 const memory = {
   title: "Card Memory Match",
   date: "06/12/2020",
   images: [
     {
       id: 1,
-      img:
-        "https://res.cloudinary.com/dlgvxohur/image/upload/v1616794590/proyectos/memory-match/foto-card-memory-match.jpg",
+      img: images.c_m_m.img,
     },
   ],
   description: `Es un clásico juego de memoria que te ayudará a entrenar tu cerebro, a memorizar mejor y ejercitar la memoria. Conecta lo lúdico con un entrenador de cerebro, la concentración y memoria visual. Es un juego casual y puzzle fácil de entender y jugar para todas las edades. Encuentra los pares iguales de cartas que están boca abajo para pasar de nivel y aumentar la dificultad del desafío. Este juego fue inspirado de "Juego de memoria: Memotest - Memorama. Empajera!" que se encuentra en la play store, pero, a diferencia del original que estuvo realizado en Unity, este fue hecho en tecnologias web.`,

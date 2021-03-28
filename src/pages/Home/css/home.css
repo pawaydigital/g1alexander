@@ -11,6 +11,12 @@
 .v-list-item {
   min-height: 0 !important;
 }
+.text-content h2 {
+  cursor: pointer;
+}
+.text-content h2:hover {
+  text-decoration: underline;
+}
 
 /* responsive */
 @media screen and (max-width: 411px) {

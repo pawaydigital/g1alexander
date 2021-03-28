@@ -1,16 +1,18 @@
+import images from "@/assets/images/projects/img.js";
+
 const projects = [
   {
     id: 1,
     name: "Card Memory Match",
-    img:
-      "https://res.cloudinary.com/dlgvxohur/image/upload/v1616794590/proyectos/memory-match/foto-card-memory-match.jpg",
+    img: images.c_m_m.img,
+    key: "memory",
     url: "/card-memory-match",
   },
   {
     id: 2,
     name: "Portafolio Alexander",
-    img:
-      "https://res.cloudinary.com/dlgvxohur/image/upload/v1616793808/proyectos/portafolio-alexander/foto-1.jpg",
+    img: images.p_a.img,
+    key: "portafolio",
     url: "/portafolio-alexander",
   },
 ];
