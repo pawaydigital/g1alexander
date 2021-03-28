@@ -62,7 +62,6 @@ export default {
   },
   mounted() {
     this.lastArray = last;
-    localStorage.removeItem("key");
   },
   methods: {
     after(slug) {

@@ -47,7 +47,6 @@ export default {
   },
   mounted() {
     this.projectsArray = projects;
-    localStorage.removeItem("key");
   },
   methods: {
     after(slug) {
