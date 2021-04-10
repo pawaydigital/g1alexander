@@ -10,6 +10,11 @@ const p_a = {
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1616793795/proyectos/portafolio-alexander/foto-2.jpg",
 };
 
-const images = { c_m_m, p_a };
+const puzz = {
+  img:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1618073064/proyectos/Puzzlify/foto-1.jpg",
+};
+
+const images = { c_m_m, p_a, puzz };
 
 export default images;

@@ -15,6 +15,13 @@ const projects = [
     key: "portafolio",
     url: "/portafolio-alexander",
   },
+  {
+    id: 2,
+    name: "Puzzlify",
+    img: images.puzz.img,
+    key: "puzzlify",
+    url: "/puzzlify",
+  },
 ];
 
 export default projects;

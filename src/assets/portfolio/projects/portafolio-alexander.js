@@ -23,6 +23,12 @@ const portafolio = {
       url: "https://vuetifyjs.com/en/",
       color: "vuetify",
     },
+    {
+      id: 3,
+      name: "Netlify",
+      url: "https://www.netlify.com/",
+      color: "netlify",
+    },
   ],
   repo: "https://github.com/PawayDigital/g1alexander/",
   web: "https://g1alexander.com",
