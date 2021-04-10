@@ -33,7 +33,7 @@
           </p>
           <v-list-item
             class="d-inline-block px-0"
-            href="https://google.com/"
+            href="https://drive.google.com/file/d/1q1ebhUgKT3FtupZxazOLgW48gVMUJFb3/view?usp=sharing/"
             rel="noopener"
             target="_blank"
             ><v-btn class="btntext--text btn">Descargar CV</v-btn></v-list-item
