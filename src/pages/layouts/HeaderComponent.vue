@@ -1,7 +1,7 @@
 <template>
   <div id="header-component">
     <v-container>
-      <v-app-bar color="bg primary--text">
+      <v-app-bar color="bg-header primary--text">
         <router-link to="/">
           <v-icon color="logo darken-2">
             mdi-laptop

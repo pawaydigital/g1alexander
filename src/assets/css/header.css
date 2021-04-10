@@ -5,6 +5,9 @@
 .v-app-bar__nav-icon {
   display: none !important;
 }
+.bg-header{
+  background-color: transparent !important;
+}
 
 @media screen and (max-width: 411px) {
   .v-slide-group__content {

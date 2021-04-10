@@ -3,6 +3,7 @@ import images from "@/assets/images/projects/img.js";
 const portafolio = {
   title: "Portafolio Alexander",
   date: "20/02/2021",
+  status: "Terminado",
   images: [
     {
       id: 1,

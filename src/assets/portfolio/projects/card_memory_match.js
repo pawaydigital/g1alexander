@@ -3,6 +3,7 @@ import images from "@/assets/images/projects/img.js";
 const memory = {
   title: "Card Memory Match",
   date: "06/12/2020",
+  status: "Terminado",
   images: [
     {
       id: 1,

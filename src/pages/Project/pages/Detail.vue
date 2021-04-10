@@ -2,7 +2,11 @@
   <v-app id="detail" class="bg">
     <v-container class="py-0">
       <HeaderComponent />
-      <Title :title="this.data.title" :date="this.data.date" />
+      <Title
+        :title="this.data.title"
+        :date="this.data.date"
+        :status="this.data.status"
+      />
       <Carousel :images="this.data.images" />
       <Description
         :description="this.data.description"
