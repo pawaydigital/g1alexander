@@ -9,6 +9,10 @@ const memory = {
       id: 1,
       img: images.c_m_m.img,
     },
+    {
+      id: 2,
+      img: images.c_m_m.img2,
+    },
   ],
   description: `Es un clásico juego de memoria que te ayudará a entrenar tu cerebro, a memorizar mejor y ejercitar la memoria. Conecta lo lúdico con un entrenador de cerebro, la concentración y memoria visual. Es un juego casual y puzzle fácil de entender y jugar para todas las edades. Encuentra los pares iguales de cartas que están boca abajo para pasar de nivel y aumentar la dificultad del desafío. Este juego fue inspirado de "Juego de memoria: Memotest - Memorama. Empajera!" que se encuentra en la play store, pero, a diferencia del original que estuvo realizado en Unity, este fue hecho en tecnologias web.`,
   technologies: [
@@ -28,7 +32,7 @@ const memory = {
   ],
   repo: "https://github.com/PawayDigital/card-memory-match",
   web:
-    "https://g1alexander.github.io/frameworks-css/src/bootstrap/memory-match/index.html",
+    "https://layouts-nu.vercel.app/tailwind/card_memory_match/index.html",
 };
 
 export default memory;

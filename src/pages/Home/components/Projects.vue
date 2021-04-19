@@ -18,8 +18,8 @@
               <figure class="my-0">
                 <v-img
                   :lazy-src="slide.img"
-                  height="250"
-                  width="285"
+                  height="auto"
+                  width="auto"
                   :alt="slide.alt"
                   :src="slide.img"
                   class="image-projects"

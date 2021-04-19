@@ -9,7 +9,7 @@
         >
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/dlgvxohur/image/upload/v1616792752/proyectos/portafolio-alexander/g1alexander.jpg"
+            src="https://res.cloudinary.com/dlgvxohur/image/upload/v1618857937/proyectos/portafolio-alexander/g1alexander.jpg"
             class="rounded-circle image-content"
             alt="g1alexander"
             height="285"

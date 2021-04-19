@@ -12,7 +12,7 @@
           :key="i"
         >
           <v-card class="mx-auto" max-width="344">
-            <v-img :src="slide.img" height="200px"></v-img>
+            <v-img :src="slide.img" width="auto" height="auto"></v-img>
 
             <v-card-title>
               {{ slide.name }}

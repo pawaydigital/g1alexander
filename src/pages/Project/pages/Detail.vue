@@ -54,5 +54,3 @@ export default {
   },
 };
 </script>
-
-<style src="@/pages/Project/css/detail.css"></style>
