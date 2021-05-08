@@ -27,15 +27,11 @@
               </figure>
             </v-col>
             <v-col cols="12" lg="9">
-              <div
-                class="text-content"
-                v-on:click="key = slide.key"
-                @click="after(slide.url)"
-              >
+              <router-link :to="slide.url">
                 <h2 class="primary--text mb-3">
                   {{ slide.title }}
                 </h2>
-              </div>
+              </router-link>
               <span class="span-projects btntext--text btn rounded px-2">
                 {{ slide.date }}
               </span>
@@ -43,8 +39,8 @@
                 {{ slide.description }}
               </p>
             </v-col>
-            <span class="border-project mt-3 mx-3"></span>
           </v-row>
+          <v-divider class="mt-5"></v-divider>
         </v-col>
       </v-row>
     </v-container>
@@ -56,18 +52,10 @@ export default {
   data() {
     return {
       lastArray: [],
-      slug: "",
-      key: "",
     };
   },
-  mounted() {
+  created() {
     this.lastArray = last;
-  },
-  methods: {
-    after(slug) {
-      localStorage.setItem("key", this.key);
-      this.$router.push(slug);
-    },
   },
 };
 </script>

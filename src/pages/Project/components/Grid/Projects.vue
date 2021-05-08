@@ -19,13 +19,7 @@
             </v-card-title>
 
             <v-card-actions>
-              <v-btn
-                v-on:click="key = slide.key"
-                @click="after(slide.url)"
-                color="btn lighten-2"
-                small
-                text
-              >
+              <v-btn @click="after(slide.url)" color="btn lighten-2" small text>
                 Mirar proyecto
               </v-btn>
             </v-card-actions>
@@ -41,16 +35,13 @@ export default {
   data() {
     return {
       projectsArray: [],
-      slug: "",
-      key: "",
     };
   },
-  mounted() {
+  created() {
     this.projectsArray = projects;
   },
   methods: {
     after(slug) {
-      localStorage.setItem("key", this.key);
       this.$router.push(slug);
     },
   },

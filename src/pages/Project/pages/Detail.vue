@@ -44,12 +44,16 @@ export default {
       data: {},
     };
   },
-  mounted() {
-    let key = localStorage.getItem("key");
+  created() {
+    let route = this.$route.params.slug;
     for (const i in all) {
-      if (i === key) {
+      if (i === route) {
         this.data = all[i];
+        return;
       }
+    }
+    if (Object.entries(this.data).length === 0) {
+      this.$router.push("/404");
     }
   },
 };

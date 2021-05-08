@@ -10,7 +10,7 @@ const routes = [
     component: () => import("@/pages/Home/pages/Home.vue"),
   },
   {
-    path: "*",
+    path: "/404",
     name: "Error",
     component: () => import("@/pages/layouts/error/Error.vue"),
   },
@@ -27,6 +27,9 @@ const routes = [
 ];
 
 const router = new VueRouter({
+  scrollBehavior() {
+    return { x: 0, y: 0 };
+  },
   mode: "history",
   base: process.env.BASE_URL,
   routes,
