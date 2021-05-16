@@ -8,7 +8,7 @@
         target="_blank"
       >
         <v-icon large color="white darken-2">
-          mdi-telegram
+          chat
         </v-icon>
         <span class="white--text px-3">Contacto</span>
       </v-list-item>

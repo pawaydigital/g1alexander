@@ -5,6 +5,9 @@ import "vuetify/dist/vuetify.min.css";
 Vue.use(Vuetify);
 
 export default new Vuetify({
+  icons: {
+    iconfont: "md",
+  },
   theme: {
     dark: true,
     options: {

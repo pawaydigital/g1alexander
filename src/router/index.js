@@ -1,5 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
+import VueRouterMetaTags from "@bachdgvn/vue-router-meta-tags";
 
 Vue.use(VueRouter);
 
@@ -11,6 +12,19 @@ const routes = [
       import(
         /* webpackChunkName: "home", webpackPreload: true */ "@/pages/Home/pages/Home.vue"
       ),
+    meta: {
+      title: `Alexander Granados`,
+      metaTags: [
+        {
+          name: "description",
+          content: `g1alexander - portafolio profesional de Alexander Granados.`,
+        },
+        {
+          property: "og:description",
+          content: `g1alexander - portafolio profesional de Alexander Granados.`,
+        },
+      ],
+    },
   },
   {
     path: "/404",
@@ -19,6 +33,19 @@ const routes = [
       import(
         /* webpackChunkName: "404", webpackPreload: true */ "@/pages/layouts/error/Error.vue"
       ),
+    meta: {
+      title: `Alexander Granados`,
+      metaTags: [
+        {
+          name: "description",
+          content: `g1alexander - portafolio profesional de Alexander Granados.`,
+        },
+        {
+          property: "og:description",
+          content: `g1alexander - portafolio profesional de Alexander Granados.`,
+        },
+      ],
+    },
   },
   {
     path: "/proyectos",
@@ -27,6 +54,19 @@ const routes = [
       import(
         /* webpackChunkName: "proyectos", webpackPreload: true */ "@/pages/Project/pages/Project.vue"
       ),
+    meta: {
+      title: `Alexander Granados`,
+      metaTags: [
+        {
+          name: "description",
+          content: `g1alexander - portafolio profesional de Alexander Granados.`,
+        },
+        {
+          property: "og:description",
+          content: `g1alexander - portafolio profesional de Alexander Granados.`,
+        },
+      ],
+    },
   },
   {
     path: "/:slug",
@@ -35,6 +75,19 @@ const routes = [
       import(
         /* webpackChunkName: "detail", webpackPreload: true */ "@/pages/Project/pages/Detail.vue"
       ),
+    meta: {
+      title: `Alexander Granados`,
+      metaTags: [
+        {
+          name: "description",
+          content: `g1alexander - portafolio profesional de Alexander Granados.`,
+        },
+        {
+          property: "og:description",
+          content: `g1alexander - portafolio profesional de Alexander Granados.`,
+        },
+      ],
+    },
   },
 ];
 
@@ -46,5 +99,7 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes,
 });
+
+router.beforeEach(VueRouterMetaTags.update);
 
 export default router;
