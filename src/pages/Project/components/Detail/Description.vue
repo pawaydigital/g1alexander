@@ -16,9 +16,11 @@
             class="text-decoration-none mr-3"
             target="_blank"
           >
-            <v-btn class="detail_tec--text mt-3" :class="slide.color">{{
-              slide.name
-            }}</v-btn>
+            <v-btn
+              class="detail_tec--text mt-3 font-weight-bold"
+              :class="slide.color"
+              >{{ slide.name }}</v-btn
+            >
           </a>
         </p>
       </v-col>

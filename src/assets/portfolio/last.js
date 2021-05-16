@@ -4,7 +4,7 @@ const last = [
   {
     id: 1,
     title: "Card Memory Match",
-    img: images.c_m_m.img,
+    img: images.c_m_m.por,
     url: "/card-memory-match",
     alt: "g1alexander-card-memory-match",
     date: "06/12/2020",
@@ -14,7 +14,7 @@ const last = [
   {
     id: 2,
     title: "Portafolio Alexander",
-    img: images.p_a.img,
+    img: images.p_a.por,
     url: "/portafolio-alexander",
     alt: "g1alexander-portafolio-alexander",
     date: "20/02/2021",

@@ -1,7 +1,7 @@
 <template>
   <transition id="preloader">
     <div
-      class="d-flex justify-center align-center"
+      class="d-flex justify-center preloader align-center"
       v-if="show"
       style="height: 100vh;"
     >
@@ -16,20 +16,13 @@
 </template>
 <script>
 export default {
-  data() {
-    return {
-      show: true,
-    };
-  },
-  mounted() {
-    if (Boolean(this.show)) this.showToggle();
-  },
-  methods: {
-    showToggle() {
-      setTimeout(() => {
-        this.show = false;
-      }, 700);
-    },
+  props: {
+    show: Boolean,
   },
 };
 </script>
+<style scoped>
+.preloader {
+  z-index: 4;
+}
+</style>

@@ -1,9 +1,8 @@
 <template>
   <v-app id="home" class="bg">
-    <v-container class="py-0">
-      <Preloader />
-      <HeaderComponent />
-      <Content />
+    <v-container class="py-0" style="height: 100vh;">
+      <HeaderComponent class="home-header" />
+      <Content class="home-content" />
     </v-container>
     <Reviews />
     <Projects />
@@ -13,18 +12,16 @@
 </template>
 
 <script>
-import Contact from "@/pages/layouts/Contact.vue";
-import Preloader from "@/pages/layouts/Preloader.vue";
-import HeaderComponent from "@/pages/layouts/HeaderComponent.vue";
-import Content from "@/pages/Home/components/Content.vue";
-import Reviews from "@/pages/Home/components/Reviews.vue";
-import Projects from "@/pages/Home/components/Projects.vue";
-import FooterComponent from "@/pages/layouts/FooterComponent.vue";
+const Contact = () => import("@/pages/layouts/Contact.vue"),
+  HeaderComponent = () => import("@/pages/layouts/HeaderComponent.vue"),
+  Content = () => import("@/pages/Home/components/Content.vue"),
+  Reviews = () => import("@/pages/Home/components/Reviews.vue"),
+  Projects = () => import("@/pages/Home/components/Projects.vue"),
+  FooterComponent = () => import("@/pages/layouts/FooterComponent.vue");
 
 export default {
   name: "Home",
   components: {
-    Preloader,
     Contact,
     HeaderComponent,
     Content,

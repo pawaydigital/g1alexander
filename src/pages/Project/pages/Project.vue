@@ -10,10 +10,10 @@
 </template>
 
 <script>
-import Contact from "@/pages/layouts/Contact.vue";
-import HeaderComponent from "@/pages/layouts/HeaderComponent.vue";
-import Projects from "@/pages/Project/components/Grid/Projects.vue";
-import FooterComponent from "@/pages/layouts/FooterComponent.vue";
+const Contact = () => import("@/pages/layouts/Contact.vue"),
+  HeaderComponent = () => import("@/pages/layouts/HeaderComponent.vue"),
+  Projects = () => import("@/pages/Project/components/Grid/Projects.vue"),
+  FooterComponent = () => import("@/pages/layouts/FooterComponent.vue");
 
 export default {
   name: "Project",

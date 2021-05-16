@@ -36,7 +36,7 @@
           <v-row class="header_movil" align-content="center" justify="center">
             <v-col cols="12">
               <router-link to="/" class="text-decoration-none mb-10"
-                ><v-btn class="primary bg--text d-block mx-auto"
+                ><v-btn class="primary bg--text  d-block mx-auto"
                   >Inicio</v-btn
                 ></router-link
               >

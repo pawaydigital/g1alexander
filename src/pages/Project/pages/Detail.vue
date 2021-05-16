@@ -21,12 +21,13 @@
 </template>
 
 <script>
-import Contact from "@/pages/layouts/Contact.vue";
-import HeaderComponent from "@/pages/layouts/HeaderComponent.vue";
-import Title from "@/pages/Project/components/Detail/Title.vue";
-import Carousel from "@/pages/Project/components/Detail/Carousel.vue";
-import Description from "@/pages/Project/components/Detail/Description.vue";
-import FooterComponent from "@/pages/layouts/FooterComponent.vue";
+const Contact = () => import("@/pages/layouts/Contact.vue"),
+  HeaderComponent = () => import("@/pages/layouts/HeaderComponent.vue"),
+  Title = () => import("@/pages/Project/components/Detail/Title.vue"),
+  Carousel = () => import("@/pages/Project/components/Detail/Carousel.vue"),
+  Description = () =>
+    import("@/pages/Project/components/Detail/Description.vue"),
+  FooterComponent = () => import("@/pages/layouts/FooterComponent.vue");
 import all from "@/assets/portfolio/all.js";
 
 export default {

@@ -1,15 +1,15 @@
 <template>
   <div id="content">
     <v-container>
-      <v-row align="center" class="content-row" style="height: 85vh;">
+      <v-row align="center" class="content-row">
         <v-col
           cols="12"
-          lg="4"
-          class="order-lg-2 offset-lg-1 text-sm-center p-content p-sm-0"
+          md="4"
+          class="order-md-2 offset-md-1 text-sm-center p-content p-sm-0"
         >
           <img
             loading="lazy"
-            src="https://res.cloudinary.com/dlgvxohur/image/upload/v1618857937/proyectos/portafolio-alexander/g1alexander.jpg"
+            src="https://res.cloudinary.com/dlgvxohur/image/upload/v1621187108/proyectos/g1alexander.jpg"
             class="rounded-circle image-content"
             alt="g1alexander"
             height="285"
@@ -18,8 +18,8 @@
         </v-col>
         <v-col
           cols="12"
-          lg="5"
-          class="offset-lg-1 text-sm-center text-md-start text-content pt-sm-0 pb-sm-0"
+          md="5"
+          class="offset-md-1 text-sm-center text-md-start text-content pt-sm-0 pb-sm-0"
         >
           <h1>
             Hola, Soy Alexander G Desarrollador web
@@ -32,7 +32,7 @@
             partir de un prototipo.
           </p>
           <v-list-item
-            class="d-inline-block px-0"
+            class="d-inline-block px-0 mb-5"
             href="https://drive.google.com/file/d/1q1ebhUgKT3FtupZxazOLgW48gVMUJFb3/view?usp=sharing/"
             rel="noopener"
             target="_blank"

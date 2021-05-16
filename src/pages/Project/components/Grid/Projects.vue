@@ -14,7 +14,7 @@
           <v-card class="mx-auto" max-width="344">
             <v-img :src="slide.img" width="auto" height="auto"></v-img>
 
-            <v-card-title>
+            <v-card-title class="font-weight-bold">
               {{ slide.name }}
             </v-card-title>
 

@@ -8,13 +8,13 @@
           style="height: 80px;"
         >
           <h1 class="d-inline-block">Ultimos proyectos</h1>
-          <router-link to="/proyectos" class="info--text text-decoration-none"
-            >Ver más</router-link
-          >
+          <router-link to="/proyectos" class="text-decoration-none"
+            ><span class="info--text">Ver más</span>
+          </router-link>
         </v-col>
         <v-col cols="12" v-for="(slide, i) in lastArray" :key="i">
           <v-row>
-            <v-col cols="12" lg="3">
+            <v-col cols="12" sm="3" md="3" lg="3">
               <figure class="my-0">
                 <v-img
                   :lazy-src="slide.img"
@@ -26,9 +26,9 @@
                 ></v-img>
               </figure>
             </v-col>
-            <v-col cols="12" lg="9">
-              <router-link :to="slide.url">
-                <h2 class="primary--text mb-3">
+            <v-col cols="12" sm="9" md="9" lg="9">
+              <router-link :to="slide.url" class="text-decoration-none">
+                <h2 class="primary--text title-project mb-3">
                   {{ slide.title }}
                 </h2>
               </router-link>

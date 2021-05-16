@@ -1,4 +1,6 @@
 const c_m_m = {
+  por:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1621190270/proyectos/card-memory-mach/portada.jpg",
   img:
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1618872576/proyectos/card-memory-mach/g1alexander-foto1.jpg",
   img2:
@@ -6,8 +8,8 @@ const c_m_m = {
 };
 
 const p_a = {
-  img:
-    "https://res.cloudinary.com/dlgvxohur/image/upload/v1618857937/proyectos/portafolio-alexander/g1alexander-foto1.jpg",
+  por:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1621190461/proyectos/portafolio-alexander/portada.jpg",
   img2:
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1618872231/proyectos/portafolio-alexander/g1alexander-foto2.jpg",
   img3:
@@ -15,8 +17,8 @@ const p_a = {
 };
 
 const puzz = {
-  img:
-    "https://res.cloudinary.com/dlgvxohur/image/upload/v1618857938/proyectos/puzzlify/g1alexander-foto1.jpg",
+  por:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1621190619/proyectos/puzzlify/portada.jpg",
   img2:
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1618872756/proyectos/puzzlify/g1alexander-foto2.jpg",
   img3:
@@ -24,6 +26,8 @@ const puzz = {
 };
 
 const layout = {
+  por:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1621190700/proyectos/layouts/portada.jpg",
   img:
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1618873024/proyectos/layouts/g1alexander-foto1.jpg",
   img2:

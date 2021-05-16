@@ -5,11 +5,11 @@
 .v-app-bar__nav-icon {
   display: none !important;
 }
-.bg-header{
+.bg-header {
   background-color: transparent !important;
 }
 
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 600px) {
   .v-slide-group__content {
     display: none !important;
   }
