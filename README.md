@@ -21,7 +21,7 @@ Portafolio para proyectos profesionales
   
 ## Captura de pantalla
 
-![App Screenshot](https://res.cloudinary.com/dlgvxohur/image/upload/v1618857937/proyectos/portafolio-alexander/g1alexander-foto1.jpg)
+![App Screenshot](https://res.cloudinary.com/dlgvxohur/image/upload/v1621190461/proyectos/portafolio-alexander/portada.jpg)
 
   
 ## Lecciones Aprendidas
