@@ -2,7 +2,7 @@
   <div id="reviews" class="accent">
     <v-container>
       <v-carousel
-        delimiter-icon="mdi-minus"
+        :delimiter-icon="mdiMinus"
         height="250"
         show-arrows-on-hover
         hide-delimiter-background
@@ -32,10 +32,12 @@
 </template>
 
 <script>
+import { mdiMinus } from "@mdi/js";
 export default {
   name: "reviews",
   data() {
     return {
+      mdiMinus,
       phrases: [
         {
           id: 1,

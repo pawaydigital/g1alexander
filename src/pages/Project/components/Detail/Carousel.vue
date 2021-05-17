@@ -3,13 +3,14 @@
     <v-carousel
       class="mt-8"
       :height="this.height"
-      delimiter-icon="mdi-minus"
+      :delimiter-icon="mdiMinus"
       hide-delimiter-background
       show-arrows-on-hover
     >
       <v-carousel-item
         v-for="(item, i) in images"
         :key="i"
+        :lazy-src="item.img"
         :src="item.img"
         reverse-transition="fade-transition"
         transition="fade-transition"
@@ -19,9 +20,11 @@
 </template>
 
 <script>
+import { mdiMinus } from "@mdi/js";
 export default {
   data() {
     return {
+      mdiMinus,
       height: 0,
     };
   },

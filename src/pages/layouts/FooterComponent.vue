@@ -10,7 +10,7 @@
               rel="noopener"
               target="_blank"
               ><v-icon large color="linkedin darken-2">
-                mdi-linkedin
+                {{ mdiLinkedin }}
               </v-icon></v-list-item
             >
             <v-list-item
@@ -19,7 +19,7 @@
               rel="noopener"
               target="_blank"
               ><v-icon large color="github darken-2">
-                mdi-github
+                {{ mdiGithub }}
               </v-icon></v-list-item
             >
             <v-list-item
@@ -28,7 +28,7 @@
               rel="noopener"
               target="_blank"
               ><v-icon large color="twitter darken-2">
-                mdi-twitter
+                {{ mdiTwitter }}
               </v-icon></v-list-item
             >
             <v-list-item
@@ -38,7 +38,7 @@
               target="_blank"
             >
               <v-icon large color="instagram darken-2">
-                mdi-instagram
+                {{ mdiInstagram }}
               </v-icon></v-list-item
             >
           </v-col>
@@ -50,6 +50,20 @@
     </footer>
   </div>
 </template>
+
+<script>
+import { mdiLinkedin, mdiGithub, mdiTwitter, mdiInstagram } from "@mdi/js";
+export default {
+  data() {
+    return {
+      mdiLinkedin,
+      mdiGithub,
+      mdiTwitter,
+      mdiInstagram,
+    };
+  },
+};
+</script>
 
 <style>
 .footer {

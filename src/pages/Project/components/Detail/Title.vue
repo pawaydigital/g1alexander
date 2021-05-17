@@ -7,24 +7,37 @@
         class="detail--text mr-3 subtitle-2 font-weight-black"
       >
         <v-icon class="mr-1" medium color="detail darken-2">
-          mdi-checkbox-marked </v-icon
+          {{ mdiCheckboxMarked }} </v-icon
         >{{ status }}
       </span>
       <span v-else class="detail--text mr-3 subtitle-2 font-weight-black">
         <v-icon class="mr-1" medium color="detail darken-2">
-          mdi-checkbox-blank-outline </v-icon
+          {{ mdiCheckboxBlankOutline }} </v-icon
         >{{ status }}
       </span>
       <span class="detail--text subtitle-2 font-weight-black">
-        <v-icon class="mr-2" medium color="detail darken-2"
-          >mdi-calendar-clock</v-icon
+        <v-icon class="mr-2" medium color="detail darken-2">{{
+          mdiCalendarClock
+        }}</v-icon
         >{{ date }}
       </span>
     </div>
   </div>
 </template>
 <script>
+import {
+  mdiCalendarClock,
+  mdiCheckboxBlankOutline,
+  mdiCheckboxMarked,
+} from "@mdi/js";
 export default {
+  data() {
+    return {
+      mdiCalendarClock,
+      mdiCheckboxBlankOutline,
+      mdiCheckboxMarked,
+    };
+  },
   props: {
     title: String,
     date: String,

@@ -4,13 +4,13 @@
       <v-app-bar color="bg-header primary--text">
         <router-link to="/">
           <v-icon color="logo darken-2">
-            laptop
+            {{ mdiLaptop }}
           </v-icon>
         </router-link>
         <v-spacer></v-spacer>
         <div class="ml-5">
           <v-btn icon @click="toggle_dark_mode" class="mt-1 ">
-            <v-icon>brightness_6</v-icon>
+            <v-icon>{{ mdiThemeLightDark }}</v-icon>
           </v-btn>
         </div>
         <v-tabs class="d-flex justify-end">
@@ -67,11 +67,14 @@
 </template>
 
 <script>
+import { mdiLaptop, mdiThemeLightDark } from "@mdi/js";
 export default {
   name: "HeaderComponent",
   data() {
     return {
       drawer: false,
+      mdiThemeLightDark,
+      mdiLaptop,
     };
   },
   methods: {

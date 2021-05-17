@@ -30,13 +30,13 @@
         <p class="mt-5 d-flex justify-space-between">
           <v-list-item class="d-inline-block mr-2" :href="repo" target="_blank"
             ><v-icon large color="github darken-2">
-              mdi-github
+              {{ mdiGithub }}
             </v-icon>
             Repositorio
           </v-list-item>
           <v-list-item class="d-inline-block" :href="web" target="_blank"
-            ><v-icon large color="github darken-2"> mdi-search-web </v-icon>Web
-            site</v-list-item
+            ><v-icon large color="github darken-2"> {{ mdiSearchWeb }} </v-icon
+            >Web site</v-list-item
           >
         </p>
       </v-col>
@@ -45,7 +45,14 @@
 </template>
 
 <script>
+import { mdiGithub, mdiSearchWeb } from "@mdi/js";
 export default {
+  data() {
+    return {
+      mdiGithub,
+      mdiSearchWeb,
+    };
+  },
   props: {
     technologies: Array,
     description: String,

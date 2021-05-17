@@ -1,25 +1,10 @@
 <template>
   <v-app>
-    <Preloader class="bg" :show="show" />
     <router-view />
   </v-app>
 </template>
 <script>
-import Preloader from "./pages/layouts/Preloader.vue";
-
 export default {
-  components: { Preloader },
-  data() {
-    return {
-      show: false,
-    };
-  },
-  beforeMount() {
-    this.show = true;
-  },
-  mounted() {
-    this.show = false;
-  },
   async accept() {
     this.showUpdateUI = false;
     await this.$workbox.messageSW({ type: "SKIP_WAITING" });
