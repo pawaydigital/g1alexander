@@ -25,9 +25,9 @@ const portafolio = {
     },
     {
       id: 3,
-      name: "Netlify",
-      url: "https://www.netlify.com/",
-      color: "netlify",
+      name: "Vercel",
+      url: "https://vercel.com/",
+      color: "vercel",
     },
   ],
   repo: "https://github.com/PawayDigital/g1alexander/",

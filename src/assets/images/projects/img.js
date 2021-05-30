@@ -9,11 +9,11 @@ const c_m_m = {
 
 const p_a = {
   por:
-    "https://res.cloudinary.com/dlgvxohur/image/upload/v1621190461/proyectos/portafolio-alexander/portada.jpg",
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1622335940/proyectos/portafolio-alexander/portada.jpg",
   img2:
-    "https://res.cloudinary.com/dlgvxohur/image/upload/v1618872231/proyectos/portafolio-alexander/g1alexander-foto2.jpg",
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1622335952/proyectos/portafolio-alexander/g1alexander-foto2.jpg",
   img3:
-    "https://res.cloudinary.com/dlgvxohur/image/upload/v1618872231/proyectos/portafolio-alexander/g1alexander-foto3.jpg",
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1622335963/proyectos/portafolio-alexander/g1alexander-foto3.jpg",
 };
 
 const puzz = {

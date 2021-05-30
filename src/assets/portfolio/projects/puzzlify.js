@@ -2,8 +2,8 @@ import images from "@/assets/images/projects/img.js";
 
 const puzzlify = {
   title: "Puzzlify",
-  date: "10/04/2021",
-  status: "En desarrollo",
+  date: "29/05/2021",
+  status: "Terminado",
   images: [
     {
       id: 1,
@@ -49,7 +49,7 @@ const puzzlify = {
     },
   ],
   repo: "https://github.com/PawayDigital/puzzlify/",
-  web: "",
+  web: "https://puzzlify.netlify.app/",
 };
 
 export default puzzlify;
