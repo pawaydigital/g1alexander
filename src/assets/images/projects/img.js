@@ -34,6 +34,15 @@ const layout = {
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1618873024/proyectos/layouts/g1alexander-foto2.jpg",
 };
 
-const images = { c_m_m, p_a, puzz, layout };
+const r_c = {
+  por:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1622934378/proyectos/rest-countries/portada.jpg",
+  img1:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1622934372/proyectos/rest-countries/g1alexander-foto2.jpg",
+  img2:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1622934375/proyectos/rest-countries/g1alexander-foto1.jpg",
+};
+
+const images = { c_m_m, p_a, puzz, layout, r_c };
 
 export default images;

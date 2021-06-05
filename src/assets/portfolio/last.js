@@ -23,13 +23,13 @@ const last = [
   },
   {
     id: 3,
-    title: "Card Memory Match",
-    img: images.c_m_m.por,
-    url: "/card-memory-match",
-    alt: "g1alexander-card-memory-match",
-    date: "06/12/2020",
+    title: "Rest Countries",
+    img: images.r_c.por,
+    url: "/rest-countries",
+    alt: "g1alexander-rest-countries",
+    date: "05/06/2021",
     description:
-      "Es un clásico juego de memoria que te ayudará a entrenar tu cerebro, a memorizar mejor y ejercitar la memoria. Conecta lo lúdico con un entrenador de cerebro, la concentración y memoria visual. Es un juego casual y puzzle fácil de entender y jugar para todas las edades. Encuentra los pares iguales de cartas que están boca abajo para pasar de nivel y aumentar la dificultad del desafío.",
+      "Solución de un reto de frontendmentor.io, en donde se plantea la construcción de un sitio web en el cual se puedan mostrar los datos de los países del mundo.",
   },
 ];
 
