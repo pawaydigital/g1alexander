@@ -36,7 +36,7 @@
           </v-list-item>
           <v-list-item class="d-inline-block" :href="web" target="_blank"
             ><v-icon large color="github darken-2"> {{ mdiSearchWeb }} </v-icon
-            >Web site</v-list-item
+            >Mirar proyecto</v-list-item
           >
         </p>
       </v-col>

@@ -28,15 +28,18 @@
             Durante mi aprendizaje en el desarrollo de software he tenido la
             posibilidad de trabajar en proyectos web tanto en la parte frontend
             como backend, encontrando en ellos un mundo maravilloso en el cual
-            se pueden crear soluciones y dar vida a sitios y páginas web a
-            partir de un prototipo.
+            se pueden crear soluciones, dar vida a sitios y páginas web a partir
+            de un prototipo.
           </p>
-          <v-list-item
+          <a
             class="d-inline-block px-0 mb-5"
             href="https://drive.google.com/file/d/1q1ebhUgKT3FtupZxazOLgW48gVMUJFb3/view?usp=sharing/"
             rel="noopener"
             target="_blank"
-            ><v-btn class="btntext--text btn">Descargar CV</v-btn></v-list-item
+            download="download"
+            ><v-btn class="btntext--text btn font-weight-bold"
+              >Descargar CV</v-btn
+            ></a
           >
         </v-col>
       </v-row>

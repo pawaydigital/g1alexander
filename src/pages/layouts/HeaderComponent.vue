@@ -14,17 +14,21 @@
           </v-btn>
         </div>
         <v-tabs class="d-flex justify-end">
-          <v-tab to="/">
+          <v-tab to="/" class="font-weight-bold">
             Inicio
           </v-tab>
           <v-tab
             href="https://co.linkedin.com/in/g1alexander/"
             rel="noopener"
             target="_blank"
+            class="font-weight-bold"
           >
+            <v-icon small color="linkedin darken-2">
+              {{ mdiLinkedin }}
+            </v-icon>
             LinkedIn
           </v-tab>
-          <v-tab to="/proyectos">
+          <v-tab to="/proyectos" class="font-weight-bold">
             Proyectos
           </v-tab>
         </v-tabs>
@@ -32,49 +36,24 @@
       </v-app-bar>
 
       <v-navigation-drawer v-model="drawer" color="bg" absolute temporary>
-        <v-container>
-          <v-row class="header_movil" align-content="center" justify="center">
-            <v-col cols="12">
-              <router-link to="/" class="text-decoration-none mb-10"
-                ><v-btn class="primary bg--text  d-block mx-auto"
-                  >Inicio</v-btn
-                ></router-link
-              >
-            </v-col>
-            <v-col cols="12">
-              <v-list-item
-                class="d-block mx-auto"
-                href="https://co.linkedin.com/in/g1alexander/"
-                rel="noopener"
-                target="_blank"
-                ><v-btn class="primary bg--text d-block mx-auto"
-                  >LinkedIn</v-btn
-                ></v-list-item
-              >
-            </v-col>
-            <v-col cols="12">
-              <router-link to="/proyectos" class="text-decoration-none mb-10"
-                ><v-btn class="primary bg--text d-block mx-auto"
-                  >Proyectos</v-btn
-                ></router-link
-              >
-            </v-col>
-          </v-row>
-        </v-container>
+        <NavResponsive @accion="drawer" />
       </v-navigation-drawer>
     </v-container>
   </div>
 </template>
 
 <script>
-import { mdiLaptop, mdiThemeLightDark } from "@mdi/js";
+import { mdiLaptop, mdiThemeLightDark, mdiLinkedin } from "@mdi/js";
+import NavResponsive from "./components/NavResponsive.vue";
 export default {
   name: "HeaderComponent",
+  components: { NavResponsive },
   data() {
     return {
       drawer: false,
       mdiThemeLightDark,
       mdiLaptop,
+      mdiLinkedin,
     };
   },
   methods: {

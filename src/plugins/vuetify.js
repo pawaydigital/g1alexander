@@ -23,6 +23,7 @@ export default new Vuetify({
         error: "#FF5252",
         success: "#4CAF50",
         warning: "#FFC107",
+        pagination_color: "#0e1319",
 
         logo: "#0e1319",
         btn: "#0e1319",
@@ -30,6 +31,7 @@ export default new Vuetify({
         detail_tec: "#f5f5f5",
 
         linkedin: "#0e76a8",
+        linkedin_btn: "#f5f5f5",
         github: "#2A2E35",
         twitter: "#00acee",
         instagram: "#E9006F",
@@ -60,12 +62,14 @@ export default new Vuetify({
         error: "#FF5252",
         success: "#4CAF50",
         warning: "#FFC107",
+        pagination_color: "#2c3541",
 
         logo: "#f5f5f5",
         btn: "#f5f5f5",
         btntext: "#0e1319",
 
         linkedin: "#00acee",
+        linkedin_btn: "#00acee",
         github: "#F7F7F7",
         twitter: "#00acee",
         instagram: "#E9006F",

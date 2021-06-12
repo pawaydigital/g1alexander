@@ -37,14 +37,10 @@ export default {
   methods: {
     media() {
       let myFunction = (x) => {
-        if (x.matches) {
-          this.height = 444;
-        } else {
-          this.height = 244;
-        }
+        x.matches ? (this.height = 444) : (this.height = 244);
       };
 
-      let x = window.matchMedia("(min-width: 411px)");
+      let x = window.matchMedia("(min-width: 550px)");
       myFunction(x); // Call listener function at run time
       x.addEventListener("change", myFunction);
     },

@@ -8,7 +8,7 @@
           xs="12"
           sm="6"
           lg="4"
-          v-for="(slide, i) in projectsArray"
+          v-for="(slide, i) in arrayFilter"
           :key="i"
         >
           <v-card class="mx-auto" max-width="344">
@@ -27,23 +27,67 @@
         </v-col>
       </v-row>
     </v-container>
+
+    <v-pagination
+      v-model="page"
+      :length="2"
+      color="pagination_color"
+      :prev-icon="mdiMenuLeft"
+      :next-icon="mdiMenuRight"
+      class="pagination mt-6"
+    ></v-pagination>
   </div>
 </template>
 <script>
 import projects from "@/assets/portfolio/projects.js";
+import { mdiMenuLeft, mdiMenuRight } from "@mdi/js";
+
 export default {
   data() {
     return {
-      projectsArray: [],
+      mdiMenuRight,
+      mdiMenuLeft,
+      page: 1,
+      pagination: null,
     };
   },
-  created() {
-    this.projectsArray = projects;
+  computed: {
+    arrayFilter() {
+      return this.pagination
+        ? projects
+        : projects.filter((el) => el.page === this.page);
+    },
+  },
+  mounted() {
+    this.media();
   },
   methods: {
     after(slug) {
       this.$router.push(slug);
     },
+    media() {
+      let myFunction = (x) => {
+        x.matches ? (this.pagination = false) : (this.pagination = true);
+      };
+
+      let x = window.matchMedia("(max-width: 599px)");
+      myFunction(x); // Call listener function at run time
+      x.addEventListener("change", myFunction);
+    },
   },
 };
 </script>
+
+<style scoped>
+.pagination {
+  display: none;
+}
+.theme--dark.v-pagination .v-pagination__navigation {
+  background: white;
+}
+@media screen and (max-width: 599px) {
+  .pagination {
+    display: block;
+  }
+}
+</style>

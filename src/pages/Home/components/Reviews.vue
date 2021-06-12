@@ -2,6 +2,7 @@
   <div id="reviews" class="accent">
     <v-container>
       <v-carousel
+        cycle
         :delimiter-icon="mdiMinus"
         height="250"
         show-arrows-on-hover
