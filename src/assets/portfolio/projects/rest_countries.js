@@ -14,7 +14,16 @@ const countries = {
       img: images.r_c.img2,
     },
   ],
-  description: `Solución de un reto de frontendmentor.io, en donde se plantea la construcción de un sitio web en el cual se puedan mostrar los datos de los países del mundo a partir del consumo de una api-rest. Aparte de esto, se puede buscar un país en específico, filtrar los países por región y un modo oscuro al sitio.`,
+  description: [
+    {
+      text:
+        "Solución de un reto de frontendmentor.io, en donde se plantea la construcción de un sitio web en el cual se puedan mostrar los datos de los países del mundo a partir del consumo de una api-rest.",
+    },
+    {
+      text:
+        "Aparte de esto, se puede buscar un país en específico, filtrar los países por región y un modo oscuro al sitio.",
+    },
+  ],
   technologies: [
     { id: 1, name: "Vue JS", url: "https://cli.vuejs.org/", color: "vue" },
     {

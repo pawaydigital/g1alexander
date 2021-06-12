@@ -2,8 +2,12 @@
   <div id="description" class="mt-8">
     <v-row>
       <v-col cols="12" md="12">
-        <p class="text-justify">
-          {{ description }}
+        <p
+          v-for="(desc, index) in description"
+          :key="index"
+          class="text-start text-md-justify mb-3"
+        >
+          {{ desc.text }}
         </p>
       </v-col>
       <v-col cols="12" md="6">
@@ -55,7 +59,7 @@ export default {
   },
   props: {
     technologies: Array,
-    description: String,
+    description: Array,
     repo: String,
     web: String,
   },

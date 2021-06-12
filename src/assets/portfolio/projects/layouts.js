@@ -14,7 +14,12 @@ const layout = {
       img: images.layout.img2,
     },
   ],
-  description: `Esta página de maquetaciones es una serie de proyectos estáticos en donde sus diseños fueron tomados de “frontendmentor”, en la cual tengo el propósito de afianzar mis conocimientos en HTML, JS, SCSS y frameworks CSS.`,
+  description: [
+    {
+      text:
+        "Esta página de maquetaciones es una serie de proyectos estáticos en donde sus diseños fueron tomados de “frontendmentor”, en la cual tengo el propósito de afianzar mis conocimientos en HTML, JS, SCSS y frameworks CSS.",
+    },
+  ],
   technologies: [
     {
       id: 1,

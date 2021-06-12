@@ -37,12 +37,12 @@ const routes = [
       title: `Alexander Granados`,
       metaTags: [
         {
-          name: "description",
-          content: `g1alexander - portafolio profesional de Alexander Granados.`,
+          name: "error",
+          content: `g1alexander - pagina error 404 de Alexander Granados.`,
         },
         {
-          property: "og:description",
-          content: `g1alexander - portafolio profesional de Alexander Granados.`,
+          property: "og:error",
+          content: `g1alexander - pagina error 404 de Alexander Granados.`,
         },
       ],
     },
@@ -58,12 +58,12 @@ const routes = [
       title: `Alexander Granados`,
       metaTags: [
         {
-          name: "description",
-          content: `g1alexander - portafolio profesional de Alexander Granados.`,
+          name: "proyectos",
+          content: `g1alexander - pagina proyectos de Alexander Granados.`,
         },
         {
-          property: "og:description",
-          content: `g1alexander - portafolio profesional de Alexander Granados.`,
+          property: "og:proyectos",
+          content: `g1alexander - pagina proyectos de Alexander Granados.`,
         },
       ],
     },
@@ -79,12 +79,12 @@ const routes = [
       title: `Alexander Granados`,
       metaTags: [
         {
-          name: "description",
-          content: `g1alexander - portafolio profesional de Alexander Granados.`,
+          name: "proyecto",
+          content: `g1alexander - pagina proyecto individual de Alexander Granados.`,
         },
         {
-          property: "og:description",
-          content: `g1alexander - portafolio profesional de Alexander Granados.`,
+          property: "og:proyecto",
+          content: `g1alexander - pagina proyecto individual de Alexander Granados.`,
         },
       ],
     },

@@ -14,7 +14,12 @@ const portafolio = {
       img: images.p_a.img3,
     },
   ],
-  description: `Este proyecto es muy importante y especial, porque, si ya te diste cuenta es el sitio donde te encuentras actualmente y aquí podrás ver todos mis proyectos de desarrollo web más importantes que he realizado a la fecha de hoy.`,
+  description: [
+    {
+      text:
+        "Este proyecto es muy importante y especial, porque, si ya te diste cuenta es el sitio donde te encuentras actualmente y aquí podrás ver todos mis proyectos de desarrollo web más importantes que he realizado a la fecha de hoy.",
+    },
+  ],
   technologies: [
     { id: 1, name: "Vue JS", url: "https://cli.vuejs.org/", color: "vue" },
     {

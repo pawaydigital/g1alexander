@@ -27,4 +27,23 @@ export default {
 };
 </script>
 
-<style src="@/assets/css/contact.css"></style>
+<style>
+.v-main.btn-telegram {
+  position: fixed;
+  z-index: 3;
+  left: auto;
+  top: auto;
+  right: 30px;
+  bottom: 30px;
+}
+.btn-telegram span {
+  display: none;
+}
+.btn-telegram:hover span {
+  display: initial;
+}
+.v-list-item {
+  min-height: 0 !important;
+  padding: 0;
+}
+</style>

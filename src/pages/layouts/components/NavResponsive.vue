@@ -9,17 +9,16 @@
         >
       </v-col>
       <v-col cols="12">
-        <v-list-item
+        <a
           class="d-block mx-auto"
           href="https://co.linkedin.com/in/g1alexander/"
           rel="noopener"
           target="_blank"
           ><v-btn class="primary bg--text d-block mx-auto font-weight-bold">
             <v-icon small color="linkedin_btn darken-2">
-              {{ mdiLinkedin }}
-            </v-icon>
-            LinkedIn</v-btn
-          ></v-list-item
+              {{ mdiLinkedin }} </v-icon
+            >LinkedIn</v-btn
+          ></a
         >
       </v-col>
       <v-col cols="12">

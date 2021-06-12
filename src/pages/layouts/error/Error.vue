@@ -29,4 +29,43 @@
   </v-app>
 </template>
 
-<style src="@/pages/layouts/error/css/error.css"></style>
+<style scoped>
+#error .error__title p {
+  font-size: 24px;
+}
+#error .error__content h1 {
+  font-size: 50px;
+}
+#error .error__content p {
+  width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  #error {
+    text-align: center;
+  }
+  #error .error__content p {
+    width: 100%;
+    margin-bottom: 2em;
+    margin-top: 1em;
+  }
+  #error .error__image {
+    max-height: 560px;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 411px) {
+  #error .error__content h1 {
+    font-size: 30px;
+  }
+  #error .error__content p {
+    font-size: 15px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  #error .error__image {
+    max-height: 238px;
+    max-width: 238px;
+  }
+}
+</style>

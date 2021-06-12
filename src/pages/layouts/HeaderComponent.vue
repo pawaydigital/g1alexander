@@ -81,4 +81,26 @@ export default {
 };
 </script>
 
-<style src="@/assets/css/header.css"></style>
+<style>
+.v-sheet.v-app-bar.v-toolbar:not(.v-sheet--outlined) {
+  box-shadow: none !important;
+}
+.v-app-bar__nav-icon {
+  display: none !important;
+}
+.bg-header {
+  background-color: transparent !important;
+}
+
+@media screen and (max-width: 600px) {
+  .v-slide-group__content {
+    display: none !important;
+  }
+  .v-app-bar__nav-icon {
+    display: block !important;
+  }
+  .header_movil {
+    height: 100vh;
+  }
+}
+</style>
