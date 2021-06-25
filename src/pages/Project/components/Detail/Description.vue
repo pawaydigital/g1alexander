@@ -23,7 +23,16 @@
             <v-btn
               class="detail_tec--text mt-3 font-weight-bold"
               :class="slide.color"
-              >{{ slide.name }}</v-btn
+              ><img
+                :src="
+                  'https://img.shields.io/badge/-' +
+                    slide.colorHex +
+                    '?&logo=' +
+                    slide.icon +
+                    '&logoColor=ffffff'
+                "
+                alt=""
+              />{{ slide.name }}</v-btn
             >
           </a>
         </p>
@@ -39,7 +48,8 @@
             Repositorio
           </v-list-item>
           <v-list-item class="d-inline-block" :href="web" target="_blank"
-            ><v-icon large color="github darken-2"> {{ mdiSearchWeb }} </v-icon
+            ><v-icon large color="github darken-2">
+              {{ mdiLinkVariant }} </v-icon
             >Mirar proyecto</v-list-item
           >
         </p>
@@ -49,12 +59,12 @@
 </template>
 
 <script>
-import { mdiGithub, mdiSearchWeb } from "@mdi/js";
+import { mdiGithub, mdiLinkVariant } from "@mdi/js";
 export default {
   data() {
     return {
       mdiGithub,
-      mdiSearchWeb,
+      mdiLinkVariant,
     };
   },
   props: {

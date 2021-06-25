@@ -1,4 +1,5 @@
-import images from "@/assets/images/projects/img.js";
+import images from "@/assets/images/img.js";
+import icons from "@/assets/icons/technologies.js";
 
 const puzzlify = {
   title: "Puzzlify",
@@ -29,37 +30,12 @@ const puzzlify = {
     },
   ],
   technologies: [
-    { id: 1, name: "Vue JS", url: "https://cli.vuejs.org/", color: "vue" },
-    {
-      id: 2,
-      name: "Vuetify",
-      url: "https://vuetifyjs.com/en/",
-      color: "vuetify",
-    },
-    {
-      id: 3,
-      name: "Netlify",
-      url: "https://www.netlify.com/",
-      color: "netlify",
-    },
-    {
-      id: 4,
-      name: "Strapi",
-      url: "https://strapi.io/",
-      color: "strapi",
-    },
-    {
-      id: 5,
-      name: "Mongo DB",
-      url: "https://www.mongodb.com/",
-      color: "mongo",
-    },
-    {
-      id: 6,
-      name: "Heroku",
-      url: "https://www.heroku.com/home",
-      color: "heroku",
-    },
+    icons.technologies.vue,
+    icons.technologies.vuetify,
+    icons.technologies.netlify,
+    icons.technologies.strapi,
+    icons.technologies.mongo,
+    icons.technologies.heroku,
   ],
   repo: "https://github.com/PawayDigital/puzzlify/",
   web: "https://puzzlify.netlify.app/",

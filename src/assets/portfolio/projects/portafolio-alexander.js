@@ -1,4 +1,5 @@
-import images from "@/assets/images/projects/img.js";
+import images from "@/assets/images/img.js";
+import icons from "@/assets/icons/technologies.js";
 
 const portafolio = {
   title: "Portafolio Alexander",
@@ -21,19 +22,9 @@ const portafolio = {
     },
   ],
   technologies: [
-    { id: 1, name: "Vue JS", url: "https://cli.vuejs.org/", color: "vue" },
-    {
-      id: 2,
-      name: "Vuetify",
-      url: "https://vuetifyjs.com/en/",
-      color: "vuetify",
-    },
-    {
-      id: 3,
-      name: "Vercel",
-      url: "https://vercel.com/",
-      color: "vercel",
-    },
+    icons.technologies.vue,
+    icons.technologies.vuetify,
+    icons.technologies.vercel,
   ],
   repo: "https://github.com/PawayDigital/g1alexander/",
   web: "https://g1alexander.com",

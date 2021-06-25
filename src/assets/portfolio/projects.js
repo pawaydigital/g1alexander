@@ -1,4 +1,4 @@
-import images from "@/assets/images/projects/img.js";
+import images from "@/assets/images/img.js";
 
 const projects = [
   {

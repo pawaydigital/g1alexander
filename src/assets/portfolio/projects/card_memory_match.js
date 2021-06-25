@@ -1,4 +1,5 @@
-import images from "@/assets/images/projects/img.js";
+import images from "@/assets/images/img.js";
+import icons from "@/assets/icons/technologies.js";
 
 const memory = {
   title: "Card Memory Match",
@@ -15,10 +16,6 @@ const memory = {
     },
   ],
   description: [
-    // {
-    //   text:
-    //     "Es un clásico juego de memoria que te ayudará a entrenar tu cerebro, a memorizar mejor y ejercitar la memoria. Conecta lo lúdico con un entrenador de cerebro, la concentración y memoria visual. ",
-    // },
     {
       text:
         "Es un juego casual y puzzle fácil de entender y jugar para todas las edades. Encuentra los pares iguales de cartas que están boca abajo para aumentar la dificultad del desafío.",
@@ -28,19 +25,9 @@ const memory = {
     },
   ],
   technologies: [
-    { id: 1, name: "Vue JS", url: "https://cli.vuejs.org/", color: "vue" },
-    {
-      id: 2,
-      name: "BootstrapVue",
-      url: "https://bootstrap-vue.org/",
-      color: "bootstrap",
-    },
-    {
-      id: 3,
-      name: "Capacitor",
-      url: "https://capacitorjs.com/",
-      color: "capacitor",
-    },
+    icons.technologies.vue,
+    icons.technologies.bootstrapVue,
+    icons.technologies.capacitor,
   ],
   repo: "https://github.com/PawayDigital/card-memory-match",
   web: "https://layouts-nu.vercel.app/tailwind/card_memory_match/index.html",

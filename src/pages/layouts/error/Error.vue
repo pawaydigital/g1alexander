@@ -7,7 +7,7 @@
         </v-col>
         <v-col cols="12" sm="12" md="6">
           <img
-            src="@/assets/images/error/error.png"
+            src="@/assets/images/error.png"
             class="error__image"
             height="480"
             width="540"

@@ -1,4 +1,5 @@
-import images from "@/assets/images/projects/img.js";
+import images from "@/assets/images/img.js";
+import icons from "@/assets/icons/technologies.js";
 
 const countries = {
   title: "Rest Countries",
@@ -25,19 +26,9 @@ const countries = {
     },
   ],
   technologies: [
-    { id: 1, name: "Vue JS", url: "https://cli.vuejs.org/", color: "vue" },
-    {
-      id: 2,
-      name: "Tailwind CSS",
-      url: "https://tailwindcss.com/",
-      color: "tailwind",
-    },
-    {
-      id: 3,
-      name: "Vercel",
-      url: "https://vercel.com/",
-      color: "vercel",
-    },
+    icons.technologies.vue,
+    icons.technologies.tailwind,
+    icons.technologies.vercel,
   ],
   repo: "https://github.com/g1alexander/rest-countries/",
   web: "https://rest-countries-vue.vercel.app/",
