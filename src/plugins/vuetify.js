@@ -31,7 +31,7 @@ export default new Vuetify({
         detail_tec: "#f5f5f5",
 
         linkedin: "#0e76a8",
-        linkedin_btn: "#f5f5f5",
+        github_btn: "#fff",
         github: "#2A2E35",
         twitter: "#00acee",
         instagram: "#E9006F",
@@ -69,7 +69,7 @@ export default new Vuetify({
         btntext: "#0e1319",
 
         linkedin: "#00acee",
-        linkedin_btn: "#00acee",
+        github_btn: "#222",
         github: "#F7F7F7",
         twitter: "#00acee",
         instagram: "#E9006F",
