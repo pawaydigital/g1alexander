@@ -3,25 +3,25 @@
     <v-main class="telegram rounded btn-telegram px-1 py-1">
       <v-list-item
         class="d-inline-block"
-        href="https://wa.link/s3jnla/"
+        href="https://co.linkedin.com/in/g1alexander/"
         rel="noopener"
         target="_blank"
       >
         <v-icon large color="white darken-2">
-          {{ mdiTelegram }}
+          {{ mdiLinkedin }}
         </v-icon>
-        <span class="white--text px-3">Contacto</span>
+        <span class="white--text px-3">LinkedIn</span>
       </v-list-item>
     </v-main>
   </div>
 </template>
 
 <script>
-import { mdiTelegram } from "@mdi/js";
+import { mdiLinkedin } from "@mdi/js";
 export default {
   data() {
     return {
-      mdiTelegram,
+      mdiLinkedin,
     };
   },
 };
