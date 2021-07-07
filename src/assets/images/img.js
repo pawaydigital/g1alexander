@@ -43,6 +43,13 @@ const r_c = {
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1622934375/proyectos/rest-countries/g1alexander-foto1.jpg",
 };
 
-const images = { c_m_m, p_a, puzz, layout, r_c };
+const ip = {
+  por:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1625601352/proyectos/ip-address-tracker/portada.jpg",
+  img1:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1625601352/proyectos/ip-address-tracker/foto1.jpg",
+};
+
+const images = { c_m_m, p_a, puzz, layout, r_c, ip };
 
 export default images;

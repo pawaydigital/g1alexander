@@ -111,6 +111,14 @@ const technologies = {
     colorHex: "111111",
     icon: "Vercel",
   },
+  nuxt: {
+    id: 15,
+    name: "Nuxt JS",
+    url: "https://nuxtjs.org/",
+    color: "nuxt",
+    colorHex: "00C58E",
+    icon: "nuxtdotjs",
+  },
 };
 
 export default { technologies };
