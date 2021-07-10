@@ -58,7 +58,7 @@ const ip = {
   por:
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1625601352/proyectos/ip-address-tracker/portada.jpg",
   img1:
-    "https://res.cloudinary.com/dlgvxohur/image/upload/v1625601352/proyectos/ip-address-tracker/foto1.jpg",
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1625601352/proyectos/ip-address-tracker/g1alexander-foto1.jpg",
   img1lg:
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1625932392/proyectos/ip-address-tracker/g1alexander-fotolg1.jpg",
 };
