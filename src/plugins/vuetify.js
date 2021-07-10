@@ -52,6 +52,7 @@ export default new Vuetify({
         heroku: "#430098",
         netlify: "#00C7B7",
         vercel: "#111111",
+        nuxt: "#00C58E",
       },
       dark: {
         bg: "#141B26",
@@ -90,6 +91,7 @@ export default new Vuetify({
         heroku: "#430098",
         netlify: "#00C7B7",
         vercel: "#111111",
+        nuxt: "#00C58E",
       },
     },
   },
