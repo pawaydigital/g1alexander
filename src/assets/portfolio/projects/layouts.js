@@ -8,11 +8,18 @@ const layout = {
   images: [
     {
       id: 1,
-      img: images.layout.img,
+      img: images.layout.img2,
+      md: true,
     },
     {
       id: 2,
-      img: images.layout.img2,
+      img: images.layout.img,
+      md: true,
+    },
+    {
+      id: 3,
+      img: images.layout.img2lg,
+      md: false,
     },
   ],
   description: [
@@ -29,7 +36,7 @@ const layout = {
     icons.technologies.tailwind,
     icons.technologies.vercel,
   ],
-  repo: "https://github.com/g1alexander/layouts",
+  repo: "https://github.com/pawaydigital/layouts",
   web: "https://layouts-nu.vercel.app/",
 };
 

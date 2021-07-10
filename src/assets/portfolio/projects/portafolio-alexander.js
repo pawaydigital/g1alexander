@@ -9,10 +9,22 @@ const portafolio = {
     {
       id: 1,
       img: images.p_a.img2,
+      md: true,
     },
     {
       id: 2,
       img: images.p_a.img3,
+      md: true,
+    },
+    {
+      id: 3,
+      img: images.p_a.img2lg,
+      md: false,
+    },
+    {
+      id: 4,
+      img: images.p_a.img3lg,
+      md: false,
     },
   ],
   description: [

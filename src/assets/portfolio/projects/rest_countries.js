@@ -9,10 +9,22 @@ const countries = {
     {
       id: 1,
       img: images.r_c.img1,
+      md: true,
     },
     {
       id: 2,
       img: images.r_c.img2,
+      md: true,
+    },
+    {
+      id: 3,
+      img: images.r_c.img1lg,
+      md: false,
+    },
+    {
+      id: 4,
+      img: images.r_c.img2lg,
+      md: false,
     },
   ],
   description: [
@@ -30,7 +42,7 @@ const countries = {
     icons.technologies.tailwind,
     icons.technologies.vercel,
   ],
-  repo: "https://github.com/g1alexander/rest-countries/",
+  repo: "https://github.com/pawaydigital/rest-countries/",
   web: "https://rest-countries-vue.vercel.app/",
 };
 

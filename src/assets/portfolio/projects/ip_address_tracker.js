@@ -9,6 +9,12 @@ const ip = {
     {
       id: 1,
       img: images.ip.img1,
+      md: true,
+    },
+    {
+      id: 2,
+      img: images.ip.img1lg,
+      md: false,
     },
   ],
   description: [

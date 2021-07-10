@@ -14,8 +14,11 @@ const p_a = {
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1622335952/proyectos/portafolio-alexander/g1alexander-foto2.jpg",
   img3:
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1622335963/proyectos/portafolio-alexander/g1alexander-foto3.jpg",
+  img2lg:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1625928063/proyectos/portafolio-alexander/g1alexander-foto2-lg.jpg",
+  img3lg:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1625928173/proyectos/portafolio-alexander/g1alexander-foto3-lg.jpg",
 };
-
 const puzz = {
   por:
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1621190619/proyectos/puzzlify/portada.jpg",
@@ -23,6 +26,8 @@ const puzz = {
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1618872756/proyectos/puzzlify/g1alexander-foto2.jpg",
   img3:
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1618872756/proyectos/puzzlify/g1alexander-foto3.jpg",
+  img2lg:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1625930513/proyectos/puzzlify/g1alexander-foto-lg2.jpg",
 };
 
 const layout = {
@@ -32,6 +37,8 @@ const layout = {
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1618873024/proyectos/layouts/g1alexander-foto1.jpg",
   img2:
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1618873024/proyectos/layouts/g1alexander-foto2.jpg",
+  img2lg:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1625932155/proyectos/layouts/g1alexander-foto-lg1.jpg",
 };
 
 const r_c = {
@@ -41,6 +48,10 @@ const r_c = {
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1622934372/proyectos/rest-countries/g1alexander-foto2.jpg",
   img2:
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1622934375/proyectos/rest-countries/g1alexander-foto1.jpg",
+  img1lg:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1625932620/proyectos/rest-countries/g1alexander-foto-lg2.jpg",
+  img2lg:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1625932628/proyectos/rest-countries/g1alexander-foto-lg1.jpg",
 };
 
 const ip = {
@@ -48,6 +59,8 @@ const ip = {
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1625601352/proyectos/ip-address-tracker/portada.jpg",
   img1:
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1625601352/proyectos/ip-address-tracker/foto1.jpg",
+  img1lg:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1625932392/proyectos/ip-address-tracker/g1alexander-fotolg1.jpg",
 };
 
 const images = { c_m_m, p_a, puzz, layout, r_c, ip };
