@@ -29,7 +29,7 @@ const ip = {
   ],
   technologies: [icons.technologies.nuxt, icons.technologies.vercel],
   repo: "https://github.com/Felipev98/adressApp",
-  web: "",
+  web: "https://adress-app.vercel.app/",
 };
 
 export default ip;
