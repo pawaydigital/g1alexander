@@ -24,7 +24,7 @@
             >
             <v-list-item
               class="d-inline-block mr-2"
-              href="https://www.twitter.com/g1_alexander/"
+              href="https://www.twitter.com/g1alexander_/"
               rel="noopener"
               target="_blank"
               ><v-icon large color="twitter darken-2">
