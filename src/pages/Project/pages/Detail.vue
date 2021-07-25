@@ -1,7 +1,7 @@
 <template>
   <v-app id="detail" class="bg">
     <v-container class="py-0">
-      <HeaderComponent />
+      <Header />
       <Title
         :title="this.data.title"
         :date="this.data.date"
@@ -15,30 +15,30 @@
         :web="this.data.web"
       />
     </v-container>
-    <FooterComponent />
+    <Footer />
     <Contact />
   </v-app>
 </template>
 
 <script>
 const Contact = () => import("@/pages/layouts/Contact.vue"),
-  HeaderComponent = () => import("@/pages/layouts/HeaderComponent.vue"),
+  Header = () => import("@/pages/layouts/Header.vue"),
   Title = () => import("@/pages/Project/components/Detail/Title.vue"),
   Carousel = () => import("@/pages/Project/components/Detail/Carousel.vue"),
   Description = () =>
     import("@/pages/Project/components/Detail/Description.vue"),
-  FooterComponent = () => import("@/pages/layouts/FooterComponent.vue");
+  Footer = () => import("@/pages/layouts/Footer.vue");
 import all from "@/assets/portfolio/all.js";
 
 export default {
   name: "detail",
   components: {
     Contact,
-    HeaderComponent,
+    Header,
     Title,
     Carousel,
     Description,
-    FooterComponent,
+    Footer,
   },
   data() {
     return {

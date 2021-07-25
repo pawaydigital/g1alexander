@@ -1,27 +1,27 @@
 <template>
   <v-app id="project" class="bg">
     <v-container class="py-0">
-      <HeaderComponent />
+      <Header />
       <Projects />
     </v-container>
-    <FooterComponent />
+    <Footer />
     <Contact />
   </v-app>
 </template>
 
 <script>
 const Contact = () => import("@/pages/layouts/Contact.vue"),
-  HeaderComponent = () => import("@/pages/layouts/HeaderComponent.vue"),
+  Header = () => import("@/pages/layouts/Header.vue"),
   Projects = () => import("@/pages/Project/components/Grid/Projects.vue"),
-  FooterComponent = () => import("@/pages/layouts/FooterComponent.vue");
+  Footer = () => import("@/pages/layouts/Footer.vue");
 
 export default {
   name: "Project",
   components: {
     Contact,
-    HeaderComponent,
+    Header,
     Projects,
-    FooterComponent,
+    Footer,
   },
 };
 </script>

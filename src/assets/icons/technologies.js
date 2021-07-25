@@ -119,6 +119,30 @@ const technologies = {
     colorHex: "00C58E",
     icon: "nuxtdotjs",
   },
+  css: {
+    id: 16,
+    name: "CSS",
+    url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    color: "css",
+    colorHex: "1572B6",
+    icon: "CSS3",
+  },
+  ts: {
+    id: 17,
+    name: "Typescript",
+    url: "https://www.typescriptlang.org/",
+    color: "ts",
+    colorHex: "3178C6",
+    icon: "TypeScript",
+  },
+  webpack: {
+    id: 18,
+    name: "Webpack",
+    url: "https://webpack.js.org/",
+    color: "webpack",
+    colorHex: "75ccff",
+    icon: "Webpack",
+  },
 };
 
 export default { technologies };

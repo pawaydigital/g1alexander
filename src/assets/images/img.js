@@ -63,6 +63,19 @@ const ip = {
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1625932392/proyectos/ip-address-tracker/g1alexander-fotolg1.jpg",
 };
 
-const images = { c_m_m, p_a, puzz, layout, r_c, ip };
+const cat = {
+  por:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1627231993/proyectos/CatWiki/portada.jpg",
+  img1:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1627231988/proyectos/CatWiki/g1alexander-foto1.jpg",
+  img1lg:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1627231988/proyectos/CatWiki/g1alexander-fotolg-1.jpg",
+  img2:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1627231988/proyectos/CatWiki/g1alexander-foto2.jpg",
+  img2lg:
+    "https://res.cloudinary.com/dlgvxohur/image/upload/v1627231988/proyectos/CatWiki/g1alexander-fotolg-2.jpg",
+};
+
+const images = { c_m_m, p_a, puzz, layout, r_c, ip, cat };
 
 export default images;
