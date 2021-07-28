@@ -15,16 +15,24 @@
         <v-col cols="12" v-for="(slide, i) in lastArray" :key="i">
           <v-row>
             <v-col cols="12" sm="3" md="3" lg="3">
-              <figure class="my-0">
-                <v-img
-                  :lazy-src="slide.img"
-                  height="auto"
-                  width="auto"
-                  :alt="slide.alt"
-                  :src="slide.img"
-                  class="image-projects"
-                ></v-img>
-              </figure>
+              <v-lazy
+                v-model="isActive"
+                :options="{
+                  threshold: 0.5,
+                }"
+                transition="fade-transition"
+              >
+                <figure class="my-0">
+                  <v-img
+                    :lazy-src="slide.img"
+                    height="auto"
+                    width="auto"
+                    :alt="slide.alt"
+                    :src="slide.img"
+                    class="image-projects"
+                  ></v-img>
+                </figure>
+              </v-lazy>
             </v-col>
             <v-col cols="12" sm="9" md="9" lg="9">
               <router-link :to="slide.url" class="text-decoration-none">
@@ -52,6 +60,7 @@ export default {
   data() {
     return {
       lastArray: [],
+      isActive: false,
     };
   },
   created() {

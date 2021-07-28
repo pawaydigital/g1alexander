@@ -12,7 +12,20 @@
           :key="i"
         >
           <v-card class="mx-auto" max-width="344">
-            <v-img :src="slide.img" width="auto" height="auto"></v-img>
+            <v-lazy
+              v-model="isActive"
+              :options="{
+                threshold: 0.5,
+              }"
+              transition="fade-transition"
+            >
+              <v-img
+                :lazy-src="slide.img"
+                :src="slide.img"
+                width="auto"
+                height="auto"
+              ></v-img>
+            </v-lazy>
 
             <v-card-title class="font-weight-bold">
               {{ slide.name }}
@@ -48,6 +61,7 @@ export default {
       mdiMenuRight,
       mdiMenuLeft,
       page: 1,
+      isActive: false,
       pagination: null,
     };
   },

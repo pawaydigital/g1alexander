@@ -10,7 +10,7 @@ const routes = [
     name: "Home",
     component: () =>
       import(
-        /* webpackChunkName: "home", webpackPreload: true */ "@/pages/Home/pages/Home.vue"
+        /* webpackChunkName: "home", webpackPreload: true, webpackPrefetch: true */ "@/pages/Home/pages/Home.vue"
       ),
     meta: {
       title: `Alexander Granados`,
@@ -31,7 +31,7 @@ const routes = [
     name: "Error",
     component: () =>
       import(
-        /* webpackChunkName: "404", webpackPreload: true */ "@/pages/layouts/error/Error.vue"
+        /* webpackChunkName: "404", webpackPreload: true, webpackPrefetch: true */ "@/pages/layouts/error/Error.vue"
       ),
     meta: {
       title: `Alexander Granados`,
@@ -52,7 +52,7 @@ const routes = [
     name: "Project",
     component: () =>
       import(
-        /* webpackChunkName: "proyectos", webpackPreload: true */ "@/pages/Project/pages/Project.vue"
+        /* webpackChunkName: "proyectos", webpackPreload: true, webpackPrefetch: true */ "@/pages/Project/pages/Project.vue"
       ),
     meta: {
       title: `Alexander Granados`,
@@ -73,7 +73,7 @@ const routes = [
     name: "Detail",
     component: () =>
       import(
-        /* webpackChunkName: "detail", webpackPreload: true */ "@/pages/Project/pages/Detail.vue"
+        /* webpackChunkName: "detail", webpackPreload: true, webpackPrefetch: true */ "@/pages/Project/pages/Detail.vue"
       ),
     meta: {
       title: `Alexander Granados`,
