@@ -1,45 +1,43 @@
 <template>
-  <div id="header-component">
-    <v-container>
-      <v-app-bar color="bg-header primary--text">
-        <router-link to="/">
-          <v-icon color="logo darken-2">
-            {{ mdiLaptop }}
+  <v-container class="pt-0 mt-0" id="header-component">
+    <v-app-bar color="bg-header primary--text">
+      <router-link to="/">
+        <v-icon color="logo darken-2">
+          {{ mdiLaptop }}
+        </v-icon>
+      </router-link>
+      <v-spacer></v-spacer>
+      <div class="ml-5">
+        <v-btn icon @click="toggle_dark_mode" class="mt-1 ">
+          <v-icon>{{ mdiThemeLightDark }}</v-icon>
+        </v-btn>
+      </div>
+      <v-tabs class="d-flex justify-end">
+        <v-tab to="/" class="font-weight-bold">
+          Inicio
+        </v-tab>
+        <v-tab
+          href="https://www.github.com/g1alexander/"
+          rel="noopener"
+          target="_blank"
+          class="font-weight-bold"
+        >
+          <v-icon small color="github darken-2 pr-1">
+            {{ mdiGithub }}
           </v-icon>
-        </router-link>
-        <v-spacer></v-spacer>
-        <div class="ml-5">
-          <v-btn icon @click="toggle_dark_mode" class="mt-1 ">
-            <v-icon>{{ mdiThemeLightDark }}</v-icon>
-          </v-btn>
-        </div>
-        <v-tabs class="d-flex justify-end">
-          <v-tab to="/" class="font-weight-bold">
-            Inicio
-          </v-tab>
-          <v-tab
-            href="https://www.github.com/g1alexander/"
-            rel="noopener"
-            target="_blank"
-            class="font-weight-bold"
-          >
-            <v-icon small color="github darken-2 pr-1">
-              {{ mdiGithub }}
-            </v-icon>
-            Github
-          </v-tab>
-          <v-tab to="/proyectos" class="font-weight-bold">
-            Proyectos
-          </v-tab>
-        </v-tabs>
-        <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
-      </v-app-bar>
+          Github
+        </v-tab>
+        <v-tab to="/proyectos" class="font-weight-bold">
+          Proyectos
+        </v-tab>
+      </v-tabs>
+      <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
+    </v-app-bar>
 
-      <v-navigation-drawer v-model="drawer" color="bg" absolute temporary>
-        <NavResponsive @accion="drawer" />
-      </v-navigation-drawer>
-    </v-container>
-  </div>
+    <v-navigation-drawer v-model="drawer" color="bg" absolute temporary>
+      <NavResponsive @accion="drawer" />
+    </v-navigation-drawer>
+  </v-container>
 </template>
 
 <script>
