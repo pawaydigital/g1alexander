@@ -11,7 +11,7 @@
           v-for="(slide, i) in arrayFilter"
           :key="i"
         >
-          <v-card class="mx-auto" max-width="344">
+          <v-card color="secondary" class="mx-auto" max-width="344">
             <v-lazy
               v-model="isActive"
               :options="{

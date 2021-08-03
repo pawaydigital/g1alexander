@@ -32,7 +32,7 @@
             de un prototipo.
           </p>
           <a
-            class="d-inline-block px-0 mb-5"
+            class="d-inline-block text-decoration-none px-0 mb-5"
             href="https://drive.google.com/file/d/1q1ebhUgKT3FtupZxazOLgW48gVMUJFb3/view?usp=sharing/"
             rel="noopener"
             target="_blank"
