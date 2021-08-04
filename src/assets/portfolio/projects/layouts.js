@@ -9,17 +9,10 @@ const layout = {
     {
       id: 1,
       img: images.layout.img2,
-      md: true,
     },
     {
       id: 2,
       img: images.layout.img,
-      md: true,
-    },
-    {
-      id: 3,
-      img: images.layout.img2lg,
-      md: false,
     },
   ],
   description: [

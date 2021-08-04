@@ -9,22 +9,10 @@ const puzzlify = {
     {
       id: 1,
       img: images.puzz.img,
-      md: true,
     },
     {
       id: 2,
       img: images.puzz.img2,
-      md: true,
-    },
-    {
-      id: 3,
-      img: images.puzz.imglg,
-      md: false,
-    },
-    {
-      id: 4,
-      img: images.puzz.img2lg,
-      md: false,
     },
   ],
   description: [

@@ -14,10 +14,6 @@ const puzz = {
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1627482609/proyectos/puzzlify/g1alexander-foto1.webp",
   img2:
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1627482609/proyectos/puzzlify/g1alexander-foto2.webp",
-  imglg:
-    "https://res.cloudinary.com/dlgvxohur/image/upload/v1627482610/proyectos/puzzlify/g1alexander-fotolg1.webp",
-  img2lg:
-    "https://res.cloudinary.com/dlgvxohur/image/upload/v1627482609/proyectos/puzzlify/g1alexander-fotolg2.webp",
 };
 
 const layout = {
@@ -27,8 +23,6 @@ const layout = {
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1627482470/proyectos/layouts/g1alexander-foto1.webp",
   img2:
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1627482470/proyectos/layouts/g1alexander-foto2.webp",
-  img2lg:
-    "https://res.cloudinary.com/dlgvxohur/image/upload/v1627482470/proyectos/layouts/g1alexander-foto-lg1.webp",
 };
 
 const r_c = {
@@ -38,10 +32,6 @@ const r_c = {
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1627482790/proyectos/rest-countries/g1alexander-foto-1.webp",
   img2:
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1627482790/proyectos/rest-countries/g1alexander-foto-2.webp",
-  img1lg:
-    "https://res.cloudinary.com/dlgvxohur/image/upload/v1627482790/proyectos/rest-countries/g1alexander-foto-lg1.webp",
-  img2lg:
-    "https://res.cloudinary.com/dlgvxohur/image/upload/v1627482790/proyectos/rest-countries/g1alexander-foto-lg2.webp",
 };
 
 const ip = {
@@ -49,8 +39,6 @@ const ip = {
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1627482326/proyectos/ip-address-tracker/portada.webp",
   img1:
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1627482318/proyectos/ip-address-tracker/g1alexander-foto-1.webp",
-  img1lg:
-    "https://res.cloudinary.com/dlgvxohur/image/upload/v1627482329/proyectos/ip-address-tracker/g1alexander-foto-lg1.webp",
 };
 
 const cat = {
@@ -58,12 +46,8 @@ const cat = {
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1627482218/proyectos/CatWiki/portada.webp",
   img1:
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1627482227/proyectos/CatWiki/g1alexander-foto-1.webp",
-  img1lg:
-    "https://res.cloudinary.com/dlgvxohur/image/upload/v1627482234/proyectos/CatWiki/g1alexander-foto-lg1.webp",
   img2:
     "https://res.cloudinary.com/dlgvxohur/image/upload/v1627482230/proyectos/CatWiki/g1alexander-foto-2.webp",
-  img2lg:
-    "https://res.cloudinary.com/dlgvxohur/image/upload/v1627482222/proyectos/CatWiki/g1alexander-foto-lg2.webp",
 };
 
 const images = { c_m_m, puzz, layout, r_c, ip, cat };

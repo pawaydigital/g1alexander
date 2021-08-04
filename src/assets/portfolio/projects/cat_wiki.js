@@ -9,22 +9,10 @@ const catWiki = {
     {
       id: 1,
       img: images.cat.img1,
-      md: true,
     },
     {
       id: 2,
       img: images.cat.img2,
-      md: true,
-    },
-    {
-      id: 3,
-      img: images.cat.img1lg,
-      md: false,
-    },
-    {
-      id: 4,
-      img: images.cat.img2lg,
-      md: false,
     },
   ],
   description: [

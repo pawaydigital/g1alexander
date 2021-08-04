@@ -1,12 +1,10 @@
 <template>
-  <v-app id="project" class="bg">
-    <v-container class="py-0">
-      <Header />
-      <Projects />
-    </v-container>
+  <div id="project" class="bg">
+    <Header />
+    <Projects />
     <Footer />
     <Contact />
-  </v-app>
+  </div>
 </template>
 
 <script>

@@ -1,45 +1,7 @@
 <template>
-  <div id="projects">
-    <v-container>
-      <h2 class="text-center mb-6">Proyectos</h2>
-      <v-row>
-        <v-col
-          cols="12"
-          xs="12"
-          sm="6"
-          lg="4"
-          v-for="(slide, i) in arrayFilter"
-          :key="i"
-        >
-          <v-card color="secondary" class="mx-auto" max-width="344">
-            <v-lazy
-              v-model="isActive"
-              :options="{
-                threshold: 0.5,
-              }"
-              transition="fade-transition"
-            >
-              <v-img
-                :lazy-src="slide.img"
-                :src="slide.img"
-                width="auto"
-                height="auto"
-              ></v-img>
-            </v-lazy>
-
-            <v-card-title class="font-weight-bold">
-              {{ slide.name }}
-            </v-card-title>
-
-            <v-card-actions>
-              <v-btn @click="after(slide.url)" color="btn lighten-2" small text>
-                Mirar proyecto
-              </v-btn>
-            </v-card-actions>
-          </v-card>
-        </v-col>
-      </v-row>
-    </v-container>
+  <v-container id="projects">
+    <h2 class="text-center mb-6">Proyectos</h2>
+    <Grid :projects="arrayFilter" />
 
     <v-pagination
       v-model="page"
@@ -49,19 +11,21 @@
       :next-icon="mdiMenuRight"
       class="pagination mt-6"
     ></v-pagination>
-  </div>
+  </v-container>
 </template>
+
 <script>
-import projects from "@/assets/portfolio/projects.js";
 import { mdiMenuLeft, mdiMenuRight } from "@mdi/js";
+import projects from "@/assets/portfolio/projects.js";
+import Grid from "./Grid.vue";
 
 export default {
+  components: { Grid },
   data() {
     return {
       mdiMenuRight,
       mdiMenuLeft,
       page: 1,
-      isActive: false,
       pagination: null,
     };
   },
@@ -72,14 +36,11 @@ export default {
         : projects.filter((el) => el.page === this.page);
     },
   },
-  mounted() {
-    this.media();
+  created() {
+    this.mediaPagination();
   },
   methods: {
-    after(slug) {
-      this.$router.push(slug);
-    },
-    media() {
+    mediaPagination() {
       let myFunction = (x) => {
         x.matches ? (this.pagination = false) : (this.pagination = true);
       };

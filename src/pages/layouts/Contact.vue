@@ -1,18 +1,16 @@
 <template>
-  <div id="contact">
-    <v-main class="telegram rounded btn-telegram px-1 py-1">
-      <v-list-item
-        class="d-inline-block"
-        href="https://co.linkedin.com/in/g1alexander/"
-        rel="noopener"
-        target="_blank"
-      >
-        <v-icon large color="white darken-2">
-          {{ mdiLinkedin }}
-        </v-icon>
-        <span class="white--text px-3">LinkedIn</span>
-      </v-list-item>
-    </v-main>
+  <div id="contact" class="telegram rounded btn-telegram px-1 py-1">
+    <v-list-item
+      class="d-inline-block"
+      href="https://co.linkedin.com/in/g1alexander/"
+      rel="noopener"
+      target="_blank"
+    >
+      <v-icon large color="white darken-2">
+        {{ mdiLinkedin }}
+      </v-icon>
+      <span class="white--text px-3">LinkedIn</span>
+    </v-list-item>
   </div>
 </template>
 
@@ -28,7 +26,7 @@ export default {
 </script>
 
 <style>
-.v-main.btn-telegram {
+#contact.btn-telegram {
   position: fixed;
   z-index: 3;
   left: auto;
