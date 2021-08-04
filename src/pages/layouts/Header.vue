@@ -1,13 +1,11 @@
 <template>
   <v-container class="pt-0 mt-0" id="header-component">
     <v-app-bar color="bg-header primary--text">
-      <router-link to="/">
-        <v-icon color="logo darken-2">
-          {{ mdiLaptop }}
-        </v-icon>
+      <router-link to="/" class="d-flex align-center">
+        <img :src="darkMode" width="60" height="45" />
       </router-link>
       <v-spacer></v-spacer>
-      <div class="ml-5">
+      <div class="ml-2">
         <v-btn icon @click="toggle_dark_mode" class="mt-1 ">
           <v-icon>{{ mdiThemeLightDark }}</v-icon>
         </v-btn>
@@ -54,25 +52,32 @@ export default {
       mdiGithub,
     };
   },
+  computed: {
+    darkMode() {
+      return this.$vuetify.theme.dark
+        ? "https://res.cloudinary.com/dlgvxohur/image/upload/v1628088399/proyectos/logo-dark.svg"
+        : "https://res.cloudinary.com/dlgvxohur/image/upload/v1628088399/proyectos/logo.svg";
+    },
+  },
   methods: {
-    toggle_dark_mode: function() {
+    toggle_dark_mode() {
       this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
       localStorage.setItem("dark_theme", this.$vuetify.theme.dark.toString());
     },
   },
-  mounted() {
+  created() {
     const theme = localStorage.getItem("dark_theme");
     if (theme) {
-      if (theme === "true") {
-        this.$vuetify.theme.dark = true;
-      } else {
-        this.$vuetify.theme.dark = false;
-      }
+      theme === "true"
+        ? (this.$vuetify.theme.dark = true)
+        : (this.$vuetify.theme.dark = false);
     } else if (
       window.matchMedia &&
       window.matchMedia("(prefers-color-scheme: dark)").matches
     ) {
-      this.$vuetify.theme.dark = true;
+      localStorage.setItem("dark_theme", this.$vuetify.theme.dark.toString());
+    } else {
+      this.$vuetify.theme.dark = false;
       localStorage.setItem("dark_theme", this.$vuetify.theme.dark.toString());
     }
   },

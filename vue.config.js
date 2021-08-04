@@ -1,6 +1,6 @@
 module.exports = {
   pwa: {
-    themeColor: "#141B26",
+    themeColor: "#1B1D2C",
     msTileColor: "#f5f5f5",
     appleMobileWebAppCache: "yes",
     icons: [
@@ -23,7 +23,7 @@ module.exports = {
       msTileImage: "icons/mstile-144x144.png",
     },
     manifestOptions: {
-      background_color: "#141B26",
+      background_color: "#1B1D2C",
     },
     workboxOptions: {
       skipWaiting: true,
